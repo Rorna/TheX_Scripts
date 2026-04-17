@@ -1,0 +1,35 @@
+{
+  "startNodeID": "wait",
+  "nodes":
+  {
+    "wait":
+    {
+        "talker": "에이미",
+        "text": "잠깐!!!",
+        "nextNodeID": "wait2",
+        "sound": "SFX_RadioSound"
+    },
+    "wait2":
+    {
+        "talker": "에이미",
+        "text": "잠깐 기다려봐!!!",
+        "nextNodeID": "player",
+        "sound": "SFX_RadioSound"
+    },
+    "player":
+    {
+        "talker": "플레이어",
+        "text": "뭐.. 뭐야... 갑자기... 깜짝놀랐잖아...",
+        "nextNodeID": "Action_Cutscene"
+    },
+    "Action_Cutscene":
+    {
+      "text": "",
+      "action":
+      {
+        "actionType": "PlayCutScene",
+        "targetID": "Cutscene_SaveMachine"
+      }
+    }
+  }
+}

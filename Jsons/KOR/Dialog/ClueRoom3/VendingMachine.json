@@ -1,0 +1,14 @@
+{
+  "startNodeID": "VendingMachine_1",
+  "nodes": {
+    "VendingMachine_1": {
+      "talker": "플레이어",
+      "text": "자판기다. 먹으면 하루 종일 배부른 음료수가 진열되어 있다.",
+      "nextNodeID": "VendingMachine_2"
+    },
+    "VendingMachine_2": {
+      "talker": "플레이어",
+      "text": "밥을 안 먹어도 되는 건 좋긴 한데, 맛없단 말이지…"
+    }
+  }
+}

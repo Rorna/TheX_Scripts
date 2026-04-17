@@ -1,0 +1,7 @@
+{
+  "Clue": "Jsons/Dialog/Clue",
+  "Desk": "Jsons/Dialog/Desk",
+  "Observe": "Jsons/Dialog/Observe",
+  "QuestMachine": "Jsons/Dialog/QuestMachine",
+  "YellowBox": "Jsons/Dialog/YellowBox"
+}

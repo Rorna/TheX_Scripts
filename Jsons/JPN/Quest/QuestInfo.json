@@ -1,0 +1,44 @@
+{
+  "quests": [
+    {
+      "id": "Q_FindItem",
+      "questType": "Count",
+      "title": "奇妙な箱を探せ",
+      "description": "奇妙な箱を探そう！！！",
+      "targetID": "WeirdBoxItem",
+      "goalCount": 1
+    },
+    {
+      "id": "Q_FindYellowBox",
+      "questType": "Count",
+      "title": "黄色い箱に話しかける",
+      "description": "箱に話しかけよう！！！",
+      "targetID": "YellowBox",
+      "goalCount": 1
+    },
+    {
+      "id": "Q_CollectAllClue",
+      "questType": "Clue",
+      "title": "手がかり収集",
+      "description": "手がかりは至る所にある。",
+      "targetList": [ "C_BigSpot", "C_BlueColor", "C_ElbowLocation"],
+      "completeAction":
+      {
+        "actionType": "RunDialog",
+        "targetID": "CompleteClueQuest"
+      }
+    },
+    {
+      "id": "Q_KillTheX",
+      "questType": "Target",
+      "title": "感染体を排除せよ！",
+      "description": "被害が拡大する前に排除しよう！",
+      "targetID": "Astronaut_Alien_Enemy",
+      "completeAction":
+      {
+        "actionType": "RunDialog",
+        "targetID": "CompleteKillQuest"
+      }
+    }
+  ]
+}

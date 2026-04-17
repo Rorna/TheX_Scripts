@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Alien_Torso_1",
+  "nodes": {
+    "Observe_Alien_Torso_1": {
+      "talker": "주인공",
+      "text": "(몸통 부위다. 피부 전체가 푸른빛이라 변이의 흔적을 구별해 내기가 까다롭군.)",
+      "nextNodeID": "Observe_Alien_Torso_2"
+    },
+    "Observe_Alien_Torso_2": {
+      "talker": "당황한 외계인",
+      "text": "나 숨쉬기 힘들다 삐릭... 그 무서운 무기 좀 치워주면 안 되나...?",
+      "nextNodeID": "Observe_Alien_Torso_3"
+    },
+    "Observe_Alien_Torso_3": {
+      "talker": "주인공",
+      "text": "(푸른 피부 외에 특별히 부어오르거나 '큰 점'이 발현된 곳은 보이지 않는다. 넘어가자.)"
+    }
+  }
+}

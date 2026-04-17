@@ -1,0 +1,37 @@
+{
+  "startNodeID": "Clue1_Start",
+  "nodes": {
+    "Clue1_Start": {
+      "talker": "Player",
+      "text": "오... 음성 재생 장치인가...? 한 번 틀어보자...",
+      "nextNodeID": "Clue1_Play"
+    },
+    "Clue1_Play": {
+      "talker": "Recorder",
+      "text": "..치직...치지... 또한 감염체는 다음과...치직.. 같은 특징이... 몸에... 치지직.. '큰 점'이 나타나는....",
+      "nextNodeID": "GetClue_Prompt"
+    },
+    "GetClue_Prompt": {
+      "talker": "Player",
+      "text": "큰 점이라... 메모해두자...",
+
+      "branchType": "Clue",
+      "branchValue": "C_BigSpot",
+      "nextNodeID": "AlreadyGet",
+      "failTargetNodeID": "Action_GetClue"
+    },
+    "Action_GetClue": {
+      "talker": "System",
+      "text": "단서 [몸에 나타나는 큰 점]을 획득했습니다.",
+      "sound": "SFX_GetClue",
+      "action": {
+        "actionType": "GetClue",
+        "targetID": "C_BigSpot"
+      }
+    },
+    "AlreadyGet": {
+      "talker": "Player",
+      "text": "이 단서는 이미 메모해뒀어."
+    }
+  }
+}

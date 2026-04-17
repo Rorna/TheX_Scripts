@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Male_Torso_1",
+  "nodes": {
+    "Observe_Male_Torso_1": {
+      "talker": "주인공",
+      "text": "(몸통 부위를 관찰해보자. 호흡이 거칠지만 두꺼운 옷 때문에 피부가 잘 보이지 않는다.)",
+      "nextNodeID": "Observe_Male_Torso_2"
+    },
+    "Observe_Male_Torso_2": {
+      "talker": "겁에 질린 생존자",
+      "text": "옷, 옷은 벗기지 말아주세요! 제발요... 너무 춥고 무섭단 말입니다...",
+      "nextNodeID": "Observe_Male_Torso_3"
+    },
+    "Observe_Male_Torso_3": {
+      "talker": "주인공",
+      "text": "(눈에 띄는 '큰 점'의 흔적은 옷 밖으로 드러나지 않았군. 다른 곳을 더 살펴봐야겠다.)"
+    }
+  }
+}

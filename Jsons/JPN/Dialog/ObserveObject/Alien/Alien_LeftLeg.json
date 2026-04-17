@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Alien_LLeg_1",
+  "nodes": {
+    "Observe_Alien_LLeg_1": {
+      "talker": "プレイヤー",
+      "text": "（左脚部分。ひどく怯えているのか、脚を激しく震わせているな。）",
+      "nextNodeID": "Observe_Alien_LLeg_2"
+    },
+    "Observe_Alien_LLeg_2": {
+      "talker": "困惑した宇宙人",
+      "text": "ピリリ… 脚を見るのはやめてくれ… 私は人間の銃がとても怖いんだ…",
+      "nextNodeID": "Observe_Alien_LLeg_3"
+    },
+    "Observe_Alien_LLeg_3": {
+      "talker": "プレイヤー",
+      "text": "（他に感染体と疑われるような傷痕はないか…）"
+    }
+  }
+}

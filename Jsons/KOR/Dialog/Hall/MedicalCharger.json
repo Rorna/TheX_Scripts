@@ -1,0 +1,14 @@
+{
+  "startNodeID": "MedicalCharger_1",
+  "nodes": {
+    "MedicalCharger_1": {
+      "talker": "플레이어",
+      "text": "상처 치유 머신이다. 빠른 속도로 상처 재생을 돕는다.",
+      "nextNodeID": "MedicalCharger_2"
+    },
+    "MedicalCharger_2": {
+      "talker": "플레이어",
+      "text": "어떤 원리일까…"
+    }
+  }
+}

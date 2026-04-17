@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Female_RArm_1",
+  "nodes": {
+    "Observe_Female_RArm_1": {
+      "talker": "プレイヤー",
+      "text": "（右腕も確認しなければ。少し襟口をめくってみよう。）",
+      "nextNodeID": "Observe_Female_RArm_2"
+    },
+    "Observe_Female_RArm_2": {
+      "talker": "震えている女性",
+      "text": "痛いです…！ 強く握らないでください… 私は本当に健康なんですよ… お願いですから信じてください…",
+      "nextNodeID": "Observe_Female_RArm_3"
+    },
+    "Observe_Female_RArm_3": {
+      "talker": "プレイヤー",
+      "text": "（皮膚の方は問題ない。傷跡や斑点はない。）"
+    }
+  }
+}

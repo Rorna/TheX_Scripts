@@ -1,0 +1,37 @@
+{
+  "startNodeID": "Clue2_Start",
+  "nodes": {
+    "Clue2_Start": {
+      "talker": "Player",
+      "text": "이건... 연구원의 메모인가? 난잡하군...",
+      "nextNodeID": "Clue2_Read"
+    },
+    "Clue2_Read": {
+      "talker": "Memo",
+      "text": "...확인 결과, 감염자들에게서 공통적으로 발견되는 그 기괴한 점의 색깔은 선명한 '파란색'이다...",
+      "nextNodeID": "GetClue_Prompt"
+    },
+    "GetClue_Prompt": {
+      "talker": "Player",
+      "text": "푸른 반점인가... 메모해둘까...",
+
+      "branchType": "Clue",
+      "branchValue": "C_BlueColor",
+      "nextNodeID": "AlreadyGet",
+      "failTargetNodeID": "Action_GetClue"
+    },
+    "Action_GetClue": {
+      "talker": "System",
+      "text": "단서 [선명한 파란색]을 획득했습니다.",
+      "sound": "SFX_GetClue",
+      "action": {
+        "actionType": "GetClue",
+        "targetID": "C_BlueColor"
+      }
+    },
+    "AlreadyGet": {
+      "talker": "Player",
+      "text": "앗, 이 단서는 이미 메모해뒀어."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "startNodeID": "Judgement_Start",
+  "nodes": {
+    "Judgement_Start": {
+      "talker": "주인공",
+      "text": "(모든 관찰을 마쳤다. 이제 누가 감염체인지, 누가 무고한 생존자인지 알겠군...)",
+      "nextNodeID": "Judgement_Prompt"
+    },
+    "Judgement_Prompt": {
+      "talker": "시스템",
+      "text": "현재 대상을 향해 특수 탄환을 발사하여 '심판'을 집행하시겠습니까? (경고: 오판 시 대상은 즉사합니다)",
+      "choices": [
+        { "text": "심판한다 (발사)", "targetNodeID": "Judgement_Execute" },
+        { "text": "그만둔다", "targetNodeID": "Judgement_Cancel" }
+      ]
+    },
+    "Judgement_Execute": {
+      "talker": "주인공",
+      "text": "",
+      "action": {
+        "actionType": "RunJudgement",
+        "targetID": "Astronaut_Alien"
+      }
+    },
+    "Judgement_Cancel": {
+      "talker": "주인공",
+      "text": "(아니, 아직 확신할 수 없어. 오판은 돌이킬 수 없으니 조금 더 신중해야 해.)"
+    }
+  }
+}

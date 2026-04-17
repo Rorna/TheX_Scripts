@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Alien_Dot_1",
+  "nodes": {
+    "Observe_Alien_Dot_1": {
+      "talker": "プレイヤー",
+      "text": "（肘に大きくて濃い斑点が一つある。こいつなのか？）",
+      "nextNodeID": "Observe_Alien_Dot_2"
+    },
+    "Observe_Alien_Dot_2": {
+      "talker": "困惑した宇宙人",
+      "text": "ピリリ！銃を撃たないでくれ！それは我々の種族の伝統的な模様だ！子供の頃にみんな刻むものだ！誤解しないでくれ！",
+      "nextNodeID": "Observe_Alien_Dot_3"
+    },
+    "Observe_Alien_Dot_3": {
+      "talker": "プレイヤー",
+      "text": "（集めた手掛かりを確認してみようか…）"
+    }
+  }
+}

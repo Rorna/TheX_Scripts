@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Male_LArm_1",
+  "nodes": {
+    "Observe_Male_LArm_1": {
+      "talker": "주인공",
+      "text": "(왼팔을 확인해보자. 단서에 따르면 평범해 보여도 '팔꿈치' 부위를 조심하라고 했지...)",
+      "nextNodeID": "Observe_Male_LArm_2"
+    },
+    "Observe_Male_LArm_2": {
+      "talker": "겁에 질린 생존자",
+      "text": "힉...! 파, 팔은 왜 잡으시는 거죠? 전 괴물한테 물린 적도 없다고요!",
+      "nextNodeID": "Observe_Male_LArm_3"
+    },
+    "Observe_Male_LArm_3": {
+      "talker": "주인공",
+      "text": "(소매를 걷어 팔꿈치 주변을 확인했지만 흉터나 '파란색' 흔적은 없다. 깨끗하군.)"
+    }
+  }
+}

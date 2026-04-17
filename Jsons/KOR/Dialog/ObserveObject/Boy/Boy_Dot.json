@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Male_Dot_1",
+  "nodes": {
+    "Observe_Male_Dot_1": {
+      "talker": "주인공",
+      "text": "(몸 한구석에 뚜렷하고 큰 점이 하나 눈에 띈다... 단서에서 언급한 감염체의 '큰 점'인가?)",
+      "nextNodeID": "Observe_Male_Dot_2"
+    },
+    "Observe_Male_Dot_2": {
+      "talker": "겁에 질린 생존자",
+      "text": "아, 아뇨! 오해입니다! 그건 그냥 어릴 때부터 있던 커다란 흉터 자국이에요! 괴물 점이 아니라고요!",
+      "nextNodeID": "Observe_Male_Dot_3"
+    },
+    "Observe_Male_Dot_3": {
+      "talker": "주인공",
+      "text": "(확실히 오래된 흉터로 인한 색소 침착으로 보이긴 한다. 특유의 '파란색'을 띠지도 않고 있다. 일단은 넘어가자.)"
+    }
+  }
+}

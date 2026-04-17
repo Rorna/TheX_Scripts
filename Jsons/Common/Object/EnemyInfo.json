@@ -1,0 +1,30 @@
+{
+    "EnemyInfo":
+    {
+        "Astronaut_Alien_Enemy":
+        {
+            "HP": 500,
+            "Attack": 10,
+            "Speed": 12,
+            "JumpHeight": 7.5,
+            "Gravity": -9.8,
+
+            "MaxActionInterval": 3,
+            "MinActionInterval": 2,
+
+            "Action": [ "Skill" ],
+            "Skill": [ "RushAttack"],
+
+            "BaseMoveDistance": 5,
+
+            "MaxMoveDistance": 10.0,
+            "MinMoveDistance": 4.0,
+
+            "MaxMoveAngle": 45.0,
+            "MinMoveAngle": -45.0,
+
+            "MaxMoveDuration": 5.0,
+            "MinMoveDuration": 2.0
+        }
+    }
+} 

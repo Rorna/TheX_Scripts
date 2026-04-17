@@ -1,0 +1,14 @@
+{
+  "startNodeID": "TolietEmpty_1",
+  "nodes": {
+    "TolietEmpty_1": {
+      "talker": "플레이어",
+      "text": "화장실이다.",
+      "nextNodeID": "TolietEmpty_2"
+    },
+    "TolietEmpty_2": {
+      "talker": "플레이어",
+      "text": "아니 그러니까 왜 화장실이 여기 있는 거냐고."
+    }
+  }
+}

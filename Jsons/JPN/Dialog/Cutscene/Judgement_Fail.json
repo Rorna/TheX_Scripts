@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Fail_Start",
+  "nodes": {
+    "Fail_Start": {
+      "talker": "観察対象",
+      "text": "うあっ…！！な、なんで…私は…感染体じゃないのに…ガクッ…",
+      "nextNodeID": "Fail_Next"
+    },
+    "Fail_Next": {
+      "talker": "プレイヤー",
+      "text": "あ…違う…赤い血じゃないか…感染体じゃなかった…俺は無実の人間を撃ってしまったのか…！",
+      "nextNodeID": "Fail_System"
+    },
+    "Fail_System": {
+      "talker": "システム",
+      "text": "警告。非感染者への誤射が発生。無実の犠牲者が発生しました。"
+    }
+  }
+}

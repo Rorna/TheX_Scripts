@@ -1,0 +1,24 @@
+{
+  "startNodeID": "here",
+  "nodes": {
+    "here": {
+      "talker": "エイミー",
+      "text": "あそこの機械、見える？",
+      "nextNodeID": "saveMachine"
+    },
+    "saveMachine": {
+      "talker": "エイミー",
+      "text": "あそこでセーブやロードができるの。",
+      "nextNodeID": "player"
+    },
+    "player": {
+      "talker": "プレイヤー",
+      "text": "おお…なるほどな…",
+      "nextNodeID": "try"
+    },
+    "try": {
+      "talker": "エイミー",
+      "text": "試しに一度動かしてみて。"
+    }
+  }
+}

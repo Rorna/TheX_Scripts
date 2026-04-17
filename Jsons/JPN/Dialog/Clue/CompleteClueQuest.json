@@ -1,0 +1,28 @@
+{
+  "startNodeID": "Clue_Complete_1",
+  "nodes": {
+    "Clue_Complete_1": {
+      "talker": "エイミー",
+      "text": "お疲れ様！エリアに隠されていた3つの手がかりをすべて確保したわね。",
+      "nextNodeID": "Clue_Complete_2"
+    },
+    "Clue_Complete_2": {
+      "talker": "エイミー",
+      "text": "この情報があれば、無実の犠牲者を出すことなく、誰が無症状感染者なのかを確実に判別できるはずよ。",
+      "nextNodeID": "Clue_Complete_3"
+    },
+    "Clue_Complete_3": {
+      "talker": "エイミー",
+      "text": "さっき端末の記録で見たと思うけど、このエリアは大気汚染が酷くて、屋外では宇宙服を脱ぐことができないの。",
+      "nextNodeID": "Clue_Complete_4"
+    },
+    "Clue_Complete_4": {
+      "talker": "エイミー",
+      "text": "でも安心して。無菌処理された『観察室』に集まっているから、そこで観察すればいいわ。\nさあ、これから本格的に『観察』をしに行きましょう！",
+      "action": {
+        "actionType": "GetQuest",
+        "targetID": "Q_KillTheX"
+      }
+    }
+  }
+}

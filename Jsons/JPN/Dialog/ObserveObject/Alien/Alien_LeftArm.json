@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Alien_LArm_1",
+  "nodes": {
+    "Observe_Alien_LArm_1": {
+      "talker": "プレイヤー",
+      "text": "（左腕だ。手がかりによれば、普通に見えても必ず『肘』を確認しなければならない。）",
+      "nextNodeID": "Observe_Alien_LArm_2"
+    },
+    "Observe_Alien_LArm_2": {
+      "talker": "困惑した宇宙人",
+      "text": "ピリリッ！なぜ無理やり腕を曲げるんだ！痛いピリリ！",
+      "nextNodeID": "Observe_Alien_LArm_3"
+    },
+    "Observe_Alien_LArm_3": {
+      "talker": "プレイヤー",
+      "text": "（関節の構造が人間と少し違うようだ。）"
+    }
+  }
+}

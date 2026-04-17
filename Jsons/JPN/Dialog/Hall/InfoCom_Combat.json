@@ -1,0 +1,21 @@
+{
+  "startNodeID": "InfoCom_Hall_1",
+  "nodes": {
+    "InfoCom_Hall_1": {
+      "talker": "端末",
+      "text": "[戦闘関連の操作方法案内]\n基本的な移動操作は艦内での操作と同じです。",
+      "nextNodeID": "InfoCom_Hall_2",
+      "sound": "SFX_Boot"
+    },
+    "InfoCom_Hall_2": {
+      "talker": "端末",
+      "text": "マウスの左ボタンで対象を攻撃できます。",
+      "nextNodeID": "InfoCom_Hall_3"
+    },
+    "InfoCom_Hall_3": {
+      "talker": "端末",
+      "text": "キーボードの[R]キーを押してリロードができます。",
+      "sound": "SFX_Shutdown"
+    }
+  }
+}

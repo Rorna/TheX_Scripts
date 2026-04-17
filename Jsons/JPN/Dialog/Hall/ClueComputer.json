@@ -1,0 +1,50 @@
+{
+  "startNodeID": "CombatMachine_Boot",
+  "nodes": {
+    "CombatMachine_Boot": {
+      "talker": "端末",
+      "text": "システム起動。現場エージェント戦闘支援マニュアルを読み込みます。",
+      "sound": "SFX_Boot",
+      "nextNodeID": "CombatMachine_Main"
+    },
+    "CombatMachine_Main": {
+      "talker": "端末",
+      "text": "閲覧する情報項目を選択してください。",
+      "choices": [
+        { "text": "戦闘操作の案内", "targetNodeID": "Info_Controls_1" },
+        { "text": "戦闘目標および生存規則", "targetNodeID": "Info_Objective_1" },
+        { "text": "システム終了", "targetNodeID": "CombatMachine_End" }
+      ]
+    },
+    "Info_Controls_1": {
+      "talker": "端末",
+      "text": "戦闘状況における基本的な移動操作は、艦内での移動操作と同様です。\nマウスの「左」ボタンをクリックして武器を発射できます。",
+      "nextNodeID": "Info_Controls_2"
+    },
+    "Info_Controls_2": {
+      "talker": "端末",
+      "text": "支給された武器には装弾数の制限があります。弾がすべて消費された場合や必要な場合は、キーボードの「R」キーを入力してリロードできます。",
+      "nextNodeID": "Info_Controls_3"
+    },
+    "Info_Controls_3": {
+      "talker": "端末",
+      "text": "警告：リロードには一定時間が必要であり、その間は射撃が不可能です。",
+      "nextNodeID": "CombatMachine_Main"
+    },
+    "Info_Objective_1": {
+      "talker": "端末",
+      "text": "貴官の最終戦闘目標は、宿主から分離された「X」を完全に排除することです。",
+      "nextNodeID": "Info_Objective_2"
+    },
+    "Info_Objective_2": {
+      "talker": "端末",
+      "text": "交戦突入時、画面左下に貴官の生命力（体力）状態が表示されます。\n当該数値が尽きると作戦失敗およびエージェント死亡として処理されるため、格別のご注意をお願いします。",
+      "nextNodeID": "CombatMachine_Main"
+    },
+    "CombatMachine_End": {
+      "talker": "端末",
+      "text": "戦闘支援システムを終了します。エージェントの無事の帰還を祈ります。",
+      "sound": "SFX_Shutdown"
+    }
+  }
+}

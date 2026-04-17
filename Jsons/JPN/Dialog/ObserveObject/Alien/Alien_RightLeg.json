@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Alien_RLeg_1",
+  "nodes": {
+    "Observe_Alien_RLeg_1": {
+      "talker": "プレイヤー",
+      "text": "（右脚も確認しておこう。）",
+      "nextNodeID": "Observe_Alien_RLeg_2"
+    },
+    "Observe_Alien_RLeg_2": {
+      "talker": "困惑した宇宙人",
+      "text": "どうか私を殺さないでくれ… 私は悪い宇宙人じゃないピリリ…",
+      "nextNodeID": "Observe_Alien_RLeg_3"
+    },
+    "Observe_Alien_RLeg_3": {
+      "talker": "プレイヤー",
+      "text": "（特別な異常はない。元々の肌の色のせいで誤解しやすいが、無実の生存者のようだな。）"
+    }
+  }
+}

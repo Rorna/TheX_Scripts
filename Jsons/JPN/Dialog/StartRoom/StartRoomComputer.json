@@ -1,0 +1,87 @@
+{
+  "startNodeID": "Intro",
+  "nodes": {
+    "Intro": {
+      "talker": "端末",
+      "text": "システム起動完了… エージェント端末が有効になりました。",
+      "nextNodeID": "Choices",
+      "sound": "SFX_Boot"
+    },
+    "Choices": {
+      "talker": "端末",
+      "text": "確認する作戦指示書を選択してください。",
+      "choices": [
+        { "text": "操作方法の案内", "targetNodeID": "Guide_Controls1" },
+        { "text": "相互作用の方法", "targetNodeID": "Guide_Interact1" },
+        { "text": "コア任務目標", "targetNodeID": "Guide_Mission1" },
+        { "text": "任務の成功および失敗条件", "targetNodeID": "Guide_Result1" },
+        { "text": "システム終了", "targetNodeID": "Cancel" }
+      ]
+    },
+
+    "Guide_Controls1": {
+      "talker": "端末",
+      "text": "移動はキーボードの「W」「A」「S」「D」または方向キー、ジャンプは「Space」キー、視点操作はマウスで行います。",
+      "nextNodeID": "Guide_Controls2"
+    },
+    "Guide_Controls2": {
+      "talker": "端末",
+      "text": "「Shift」キーを押しながら移動すると走ることができます。",
+      "nextNodeID": "Guide_Controls3"
+    },
+    "Guide_Controls3": {
+      "talker": "端末",
+      "text": "キーボードの「ESC」キーを押すとゲームを一時停止できます。",
+      "nextNodeID": "Guide_Controls4"
+    },
+    "Guide_Controls4": {
+      "talker": "端末",
+      "text": "オブジェクトとの相互作用および会話は、キーボードの「F」キーまたはマウスの「左」ボタンで行えます。",
+      "nextNodeID": "Choices"
+    },
+
+    "Guide_Interact1": {
+      "talker": "端末",
+      "text": "周囲の相互作用可能なオブジェクトに近づくと、UIからは「F」アイコンと、対象の輪郭には線が表示されます。",
+      "nextNodeID": "Guide_Interact2"
+    },
+    "Guide_Interact2": {
+      "talker": "端末",
+      "text": "その状態でキーボードの「F」キーを押すと、その対象との相互作用ができます。",
+      "nextNodeID": "Choices"
+    },
+
+    "Guide_Mission1": {
+      "talker": "端末",
+      "text": "あなたの任務は、エリア内の手がかりを集め、感染の疑いがある者を注意深く観察することです。",
+      "nextNodeID": "Guide_Mission2"
+    },
+    "Guide_Mission2": {
+      "talker": "端末",
+      "text": "疑わしい者を感染体と判別したら、特殊の銃を使用して対象を「審判」してください。",
+      "nextNodeID": "Guide_Mission3"
+    },
+    "Guide_Mission3": {
+      "talker": "端末",
+      "text": "最終的に、宿主から分離した謎の生命体「X」を倒すことが本作戦の目標です。",
+      "nextNodeID": "Choices"
+    },
+
+    "Guide_Result1": {
+      "talker": "端末",
+      "text": "謎の生命体「X」の討伐に成功すれば任務完了となります。",
+      "nextNodeID": "Guide_Result2"
+    },
+    "Guide_Result2": {
+      "talker": "端末",
+      "text": "しかし、作戦中に支給された特殊弾をすべて使い果たすと即座に任務失敗とみなされるため、慎重に管理してください。",
+      "nextNodeID": "Choices"
+    },
+
+    "Cancel": {
+      "talker": "端末",
+      "text": "端末への接続を終了します。幸運を祈ります。",
+      "sound": "SFX_Shutdown"
+    }
+  }
+}

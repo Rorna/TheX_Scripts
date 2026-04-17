@@ -1,0 +1,30 @@
+{
+    "situationActionData":
+    {
+        "Judgement":
+        {
+            "actionType": "RunDialog",
+            "targetID": "PrepareToJudgement"
+        },
+        "ReturnToField":
+        {
+            "actionType": "RunDialog",
+            "targetID": "ReturnToField"
+        },
+        "PlayJudgementCutsceneSuccess":
+        {
+            "actionType": "PlayCutscene",
+            "targetID": "Cutscene_JudgementSuccess"
+        },
+        "PlayJudgementCutsceneFail":
+        {
+            "actionType": "PlayCutscene",
+            "targetID": "Cutscene_JudgementFail"
+        },
+        "GameOverZeroBullet":
+        {
+            "actionType": "RunDialog",
+            "targetID": "GameOver_ZeroBullet"
+        }
+    }
+}

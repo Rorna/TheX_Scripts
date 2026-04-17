@@ -1,0 +1,35 @@
+{
+    "SceneSoundInfo":
+    {
+        "MainMenu":
+        {
+            "DefaultBGM":
+            {
+                "SoundID": "BGM_MainMenu",
+                "Volume": 0.3
+            }
+        },
+        "Stage1":
+        {
+            "DefaultBGM":
+            {
+                "SoundID": "BGM_Stage1",
+                "Volume": 0.3
+            }
+        },
+        "ObserveScene":
+        {
+            "DefaultBGM":
+            {
+                "SoundID": "BGM_Observe",
+                "Volume": 0.3
+            },
+            "CombatBGM":
+            {
+                "SoundID": "BGM_Combat",
+                "Volume": 0.4
+            }
+        }
+    }
+
+}

@@ -1,0 +1,14 @@
+{
+  "startNodeID": "OxygenGenrator_1",
+  "nodes": {
+    "OxygenGenrator_1": {
+      "talker": "プレイヤー",
+      "text": "酸素生成装置だ。",
+      "nextNodeID": "OxygenGenrator_2"
+    },
+    "OxygenGenrator_2": {
+      "talker": "プレイヤー",
+      "text": "これのおかげで、人類は宇宙への進出が可能になったんだ。"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "startNodeID": "Cutscene_Start",
+  "nodes": {
+    "Cutscene_Start": {
+      "talker": "주인공",
+      "text": "이 괴물아! 네가 아무리 인간의 겉모습으로 속이려 들어도 나에겐 소용없다!",
+      "nextNodeID": "Cutscene_Next"
+    },
+    "Cutscene_Next": {
+      "talker": "주인공",
+      "text": "나의 특수 탄환을 받아라!!"
+    }
+  }
+}

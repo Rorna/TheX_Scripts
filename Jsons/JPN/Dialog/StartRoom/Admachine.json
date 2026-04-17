@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Admachine_1",
+  "nodes": {
+    "Admachine_1": {
+      "talker": "プレイヤー",
+      "text": "広告掲示板だ。",
+      "nextNodeID": "Admachine_2"
+    },
+    "Admachine_2": {
+      "talker": "プレイヤー",
+      "text": "いつも変な広告ばかり流れてるんだよな、これ。",
+      "nextNodeID": "Admachine_3"
+    },
+    "Admachine_3": {
+      "talker": "プレイヤー",
+      "text": "一体何の意味があるんだろう？"
+    }
+  }
+}

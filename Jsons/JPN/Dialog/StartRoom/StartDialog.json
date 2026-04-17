@@ -1,0 +1,145 @@
+{
+  "startNodeID": "helper1",
+  "nodes":
+  {
+    "helper1":
+    {
+        "talker": "システム",
+        "text": "オブジェクトと相互作用するには「F」キーまたはマウスの左クリック（観察モードの場合）を押してください。",
+        "nextNodeID": "helper2"
+    },
+    "helper2":
+    {
+        "talker": "システム",
+        "text": "これらのキーは会話を進める際にも使用されます。",
+        "nextNodeID": "player"
+    },
+    "player":
+    {
+        "talker": "プレイヤー",
+        "text": "…なんだ？誰だ…？",
+        "nextNodeID": "helper3"
+    },
+    "helper3":
+    {
+      "talker": "???",
+      "text": "…ザザッ…",
+      "nextNodeID": "helper4",
+      "sound": "SFX_RadioSound"
+    },
+    "helper4":
+    {
+      "talker": "???",
+      "text": "…ザザーッ…",
+      "sound": "SFX_RadioSound",
+      "nextNodeID": "Player1"
+    },
+    "Player1":
+    {
+      "talker": "プレイヤー",
+      "text": "…誰だ…？",
+      "nextNodeID": "helper5"
+    },
+    "helper5":
+    {
+    "talker": "???",
+    "text": "…あっ…よく聞こえてるみたいね！！",
+    "sound": "SFX_RadioSound",
+    "nextNodeID": "Player2"
+    },
+    "Player2":
+    {
+    "talker": "プレイヤー",
+    "text": "だから誰なんだ…！",
+    "nextNodeID": "helper6"
+    },
+    "helper6":
+    {
+    "talker": "エイミー",
+    "text": "エイミーよ！！まだ私の声を覚えてないの？！",
+    "nextNodeID": "Player3"
+    },
+    "Player3":
+    {
+    "talker": "プレイヤー",
+    "text": "なんだ…エイミーか…とにかく何の用だ。",
+    "nextNodeID": "helper7"
+    },
+    "helper7":
+    {
+    "talker": "エイミー",
+    "text": "もう…いい加減覚えてよ…とにかく、今回の任務はどう？",
+    "nextNodeID": "Player4"
+    },
+    "Player4":
+    {
+    "talker": "プレイヤー",
+    "text": "任…務？ああ…感染体の排除か…とても順調だ。",
+    "nextNodeID": "helper8"
+    },
+    "helper8":
+    {
+    "talker": "エイミー",
+    "text": "そう、感染体の排除！よくわかってるじゃない。でも気をつけて。",
+    "nextNodeID": "helper9"
+    },
+    "helper9":
+    {
+    "talker": "エイミー",
+    "text": "感染体は見た目は全く普通の人間と同じだから、よーく観察しないといけないんたよ？",
+    "nextNodeID": "helper10"
+    },
+    "helper10":
+    {
+    "talker": "エイミー",
+    "text": "でも幸いなことに、研究員たちが感染体を判別する手がかりを残してくれたの。",
+    "nextNodeID": "Player5"
+    },
+    "Player5":
+    {
+    "talker": "プレイヤー",
+    "text": "手がかりか、そうだったな。おかげで順調に進めそうだ。",
+    "nextNodeID": "helper11"
+    },
+    "helper11":
+    {
+    "talker": "エイミー",
+    "text": "問題は、感染者の目を避けるためにあちこちに隠してあるってことよ。",
+    "nextNodeID": "Player6"
+    },
+    "Player6":
+    {
+    "talker": "プレイヤー",
+    "text": "何だと…？要するに歩き回って手がかりを探さなきゃいけないってことか…",
+    "nextNodeID": "helper12"
+    },
+    "helper12":
+    {
+    "talker": "エイミー",
+    "text": "そう、まずは手がかりを集めましょう。この階には手がかりが3つあるみたい。さ、早く動きなさい！",
+    "nextNodeID": "Player7"
+    },
+    "Player7":
+    {
+    "talker": "プレイヤー",
+    "text": "そうするよ…ありがとう、エイミー。そろそろ出発する。",
+    "nextNodeID": "helper13"
+    },
+    "helper13":
+    {
+    "talker": "エイミー",
+    "text": "どういたしまして。情報を詳しく確認したいなら、あちこちにコンピューターがあるからそこで情報を得られるの。\nちょうどこの部屋にもあるから、黄色のモニターのやつ。試しに確認してみたら？",
+    "nextNodeID": "Action_Quest" 
+    },
+    "Action_Quest":
+    {
+    "talker": "エイミー",
+    "text": "とにかく歩き回ってて黄色いコンピューターを見つけたら、通り過ぎずに一度は確認してみてね。",
+    "action":
+      {
+        "actionType": "GetQuest",
+        "targetID": "Q_CollectAllClue"
+      }
+    }
+  }
+}

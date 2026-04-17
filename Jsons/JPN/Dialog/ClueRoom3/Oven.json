@@ -1,0 +1,14 @@
+{
+  "startNodeID": "Oven_1",
+  "nodes": {
+    "Oven_1": {
+      "talker": "プレイヤー",
+      "text": "オーブンがある…",
+      "nextNodeID": "Oven_2"
+    },
+    "Oven_2": {
+      "talker": "プレイヤー",
+      "text": "月曜日を世界で一番好きな黄色い四角い奴が大事にしている物だ。"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Cutscene_Door_1",
+  "nodes": {
+    "Cutscene_Door_1": {
+      "talker": "エイミー",
+      "text": "あそこ、見える？今開いたあのドアを通れば、コアにもう一歩近づけるはずよ。",
+      "nextNodeID": "Cutscene_Door_2"
+    },
+    "Cutscene_Door_2": {
+      "talker": "プレイヤー",
+      "text": "（あのドアみたいだな…奥にまた別の変異体が潜伏しているかもしれないから、警戒を怠らないようにしよう。）",
+      "nextNodeID": "Cutscene_Door_3"
+    },
+    "Cutscene_Door_3": {
+      "talker": "プレイヤー",
+      "text": "（そろそろ行こうか…）"
+    }
+  }
+}

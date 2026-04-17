@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Cutscene_Door_1",
+  "nodes": {
+    "Cutscene_Door_1": {
+      "talker": "에이미",
+      "text": "저기 보이지? 방금 열린 저 문을 통과하면 코어에 한 발짝 더 다가갈 수 있을 거야.",
+      "nextNodeID": "Cutscene_Door_2"
+    },
+    "Cutscene_Door_2": {
+      "talker": "주인공",
+      "text": "(저 문인가 보군... 안쪽에 또 다른 변이체가 잠복해 있을지 모르니 경계를 늦추지 말자.)",
+      "nextNodeID": "Cutscene_Door_3"
+    },
+    "Cutscene_Door_3": {
+      "talker": "주인공",
+      "text": "(장비를 단단히 챙기고 이동해 보자.)"
+    }
+  }
+}

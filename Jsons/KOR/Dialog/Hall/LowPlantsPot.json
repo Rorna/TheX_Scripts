@@ -1,0 +1,19 @@
+{
+  "startNodeID": "LowPlantsPot_1",
+  "nodes": {
+    "LowPlantsPot_1": {
+      "talker": "플레이어",
+      "text": "36광년 떨어진 곳에서 채취한 식물이다.",
+      "nextNodeID": "LowPlantsPot_2"
+    },
+    "LowPlantsPot_2": {
+      "talker": "플레이어",
+      "text": "생긴 건 지구의 버섯과 비슷한데, 사람을 물기도 한다.",
+      "nextNodeID": "LowPlantsPot_3"
+    },
+    "LowPlantsPot_3": {
+      "talker": "플레이어",
+      "text": "가까이 가지 않도록 하자…"
+    }
+  }
+}

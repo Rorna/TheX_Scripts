@@ -1,0 +1,26 @@
+{
+    "SkillInfo":
+    {
+        "RushAttack":
+        {
+            "SkillType": "Damage",
+            "SkillCastType": "Melee",
+            "Damage": 20,
+            "DelayTime": 1.2,
+            "RushDuration": 2.0,
+            "RushForce": 35 
+        },
+        "ShockWaveAttack":
+        {
+            "ParticlePath": "Effect/CircleShockWave",
+            "SkillType": "Damage",
+            "SkillCastType": "Range",
+            "Damage": 10,
+            "DelayTime": 1.0,
+            "AttackCount": 3,
+            "ScaleUpTime": 0.03,
+            "ScaleUpParam": 0.5,
+            "LifeTime": 5
+        }
+    }
+}

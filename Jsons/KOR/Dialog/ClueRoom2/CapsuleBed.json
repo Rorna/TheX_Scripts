@@ -1,0 +1,14 @@
+{
+  "startNodeID": "CapsuleBed_1",
+  "nodes": {
+    "CapsuleBed_1": {
+      "talker": "플레이어",
+      "text": "1인용 캡슐 침대다. 회복 기능도 들어있다.",
+      "nextNodeID": "CapsuleBed_2"
+    },
+    "CapsuleBed_2": {
+      "talker": "플레이어",
+      "text": "그런데 너무 좁아."
+    }
+  }
+}

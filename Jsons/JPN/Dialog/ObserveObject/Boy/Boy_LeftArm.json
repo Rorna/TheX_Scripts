@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Male_LArm_1",
+  "nodes": {
+    "Observe_Male_LArm_1": {
+      "talker": "プレイヤー",
+      "text": "（左腕を確認してみよう…）",
+      "nextNodeID": "Observe_Male_LArm_2"
+    },
+    "Observe_Male_LArm_2": {
+      "talker": "怯えた生存者",
+      "text": "ひっ…！ う、腕をなんで掴むんですか？ 私は化け物に噛まれたこともありませんよ！",
+      "nextNodeID": "Observe_Male_LArm_3"
+    },
+    "Observe_Male_LArm_3": {
+      "talker": "プレイヤー",
+      "text": "（袖をまくって肘の周辺を確認したが、特に問題はなさそうだ。）"
+    }
+  }
+}

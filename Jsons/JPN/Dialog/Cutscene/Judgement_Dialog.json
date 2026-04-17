@@ -1,0 +1,14 @@
+{
+  "startNodeID": "Cutscene_Start",
+  "nodes": {
+    "Cutscene_Start": {
+      "talker": "プレイヤー",
+      "text": "この化け物め！いくら人間のふりをして騙そうとしても、俺には通用しないぞ！",
+      "nextNodeID": "Cutscene_Next"
+    },
+    "Cutscene_Next": {
+      "talker": "プレイヤー",
+      "text": "俺の特殊弾をくらえ！！"
+    }
+  }
+}

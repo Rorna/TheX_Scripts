@@ -1,0 +1,36 @@
+{
+  "startNodeID": "Clue3_Start",
+  "nodes": {
+    "Clue3_Start": {
+      "talker": "プレイヤー",
+      "text": "本だ…何か急いで書き殴ったようだが…",
+      "nextNodeID": "Clue3_Read"
+    },
+    "Clue3_Read": {
+      "talker": "警告",
+      "text": "気をつけろ！奴らは普通に見えるが、服で隠しているだけだ！特に『肘』の周辺をよく確認するんだ！",
+      "nextNodeID": "GetClue_Prompt"
+    },
+    "GetClue_Prompt": {
+      "talker": "プレイヤー",
+      "text": "なるほど…メモしておこう…",
+      "branchType": "Clue",
+      "branchValue": "C_ElbowLocation",
+      "nextNodeID": "AlreadyGet",
+      "failTargetNodeID": "Action_GetClue"
+    },
+    "Action_GetClue": {
+      "talker": "システム",
+      "text": "手がかり「肘周辺の痕跡」を獲得しました。",
+      "sound": "SFX_GetClue",
+      "action": {
+        "actionType": "GetClue",
+        "targetID": "C_ElbowLocation"
+      }
+    },
+    "AlreadyGet": {
+      "talker": "プレイヤー",
+      "text": "この手がかりはすでにメモしてあるな。"
+    }
+  }
+}

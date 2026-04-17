@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Tree_1",
+  "nodes": {
+    "Tree_1": {
+      "talker": "プレイヤー",
+      "text": "10光年離れた海洋型惑星で採取された生物だ。",
+      "nextNodeID": "Tree_2"
+    },
+    "Tree_2": {
+      "talker": "プレイヤー",
+      "text": "見た目は木のようだが、こいつ、夜になると動き回るらしい。",
+      "nextNodeID": "Tree_3"
+    },
+    "Tree_3": {
+      "talker": "プレイヤー",
+      "text": "なんだよ… それ… 怖いな…"
+    }
+  }
+}

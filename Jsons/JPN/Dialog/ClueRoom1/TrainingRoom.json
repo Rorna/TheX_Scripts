@@ -1,0 +1,19 @@
+{
+  "startNodeID": "TrainingRoom_1",
+  "nodes": {
+    "TrainingRoom_1": {
+      "talker": "プレイヤー",
+      "text": "空間ルームだ… 時間と空間が外部から遮断されている。",
+      "nextNodeID": "TrainingRoom_2"
+    },
+    "TrainingRoom_2": {
+      "talker": "プレイヤー",
+      "text": "普通は訓練をしたり、溜まった作業がある時に入る場所だ。",
+      "nextNodeID": "TrainingRoom_3"
+    },
+    "TrainingRoom_3": {
+      "talker": "プレイヤー",
+      "text": "それにしても、どこかでよく聞いたことがあるような気がするが…"
+    }
+  }
+}

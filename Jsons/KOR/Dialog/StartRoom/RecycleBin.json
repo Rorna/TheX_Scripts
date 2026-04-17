@@ -1,0 +1,19 @@
+{
+  "startNodeID": "RecycleBin_1",
+  "nodes": {
+    "RecycleBin_1": {
+      "talker": "플레이어",
+      "text": "절대 채워지지 않는 쓰레기통이다.",
+      "nextNodeID": "RecycleBin_2"
+    },
+    "RecycleBin_2": {
+      "talker": "플레이어",
+      "text": "쓰레기를 넣으면 그 즉시 분해되기 때문이지.",
+      "nextNodeID": "RecycleBin_3"
+    },
+    "RecycleBin_3": {
+      "talker": "플레이어",
+      "text": "너무 편리해서 내 방에도 하나 놓았으면 좋겠단 말이지."
+    }
+  }
+}

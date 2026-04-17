@@ -1,0 +1,19 @@
+{
+  "startNodeID": "FoodStall_1",
+  "nodes": {
+    "FoodStall_1": {
+      "talker": "플레이어",
+      "text": "포장마차다… 이게 왜 여기 있는지는 어느 높으신 분의 지시에 의해서다.",
+      "nextNodeID": "FoodStall_2"
+    },
+    "FoodStall_2": {
+      "talker": "플레이어",
+      "text": "일하면서도 포장마차의 분위기를 느끼고 싶어서라고…",
+      "nextNodeID": "FoodStall_3"
+    },
+    "FoodStall_3": {
+      "talker": "플레이어",
+      "text": "아니 그보다 냄새는 어떻게 할 거야."
+    }
+  }
+}

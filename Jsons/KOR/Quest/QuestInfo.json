@@ -1,0 +1,44 @@
+{
+  "quests": [
+    {
+      "id": "Q_FindItem",
+      "questType": "Count",
+      "title": "Find Weird Box",
+      "description": "Let's Find WeirdBox!!!",
+      "targetID": "WeirdBoxItem",
+      "goalCount": 1
+    },
+    {
+      "id": "Q_FindYellowBox",
+      "questType": "Count",
+      "title": "Talk to Yellow Box",
+      "description": "Talk to Box!!!",
+      "targetID": "YellowBox",
+      "goalCount": 1
+    },
+    {
+      "id": "Q_CollectAllClue",
+      "questType": "Clue",
+      "title": "단서 수집",
+      "description": "단서는 곳곳에 있다.",
+      "targetList": [ "C_BigSpot", "C_BlueColor", "C_ElbowLocation"],
+      "completeAction":
+      {
+        "actionType": "RunDialog",
+        "targetID": "CompleteClueQuest"
+      }
+    },
+    {
+      "id": "Q_KillTheX",
+      "questType": "Target",
+      "title": "감염체를 제거하라!",
+      "description": "피해가 더 커지기전에 제거하자!",
+      "targetID": "Astronaut_Alien_Enemy",
+      "completeAction":
+      {
+        "actionType": "RunDialog",
+        "targetID": "CompleteKillQuest"
+      }
+    }
+  ]
+}

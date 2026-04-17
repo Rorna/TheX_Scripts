@@ -1,0 +1,14 @@
+{
+    "objectInfo":
+    {
+        "Astronaut_Alien_Enemy":
+        {
+            "objectType": "Enemy",
+            "prefabName": "TheX",
+            "spawnPos": { "x": 41, "y": 0, "z": 34 },
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "tag": "Enemy",
+            "layer": "Enemy"
+        }
+    }
+}

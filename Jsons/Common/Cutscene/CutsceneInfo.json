@@ -1,0 +1,39 @@
+{
+  "cutsceneInfo": 
+  {
+    "Cutscene_SaveMachine":
+    {
+      "path": "Cutscene/Cutscene_SaveMachine",
+      "trackDynamicBindings":
+      {
+        "Cinemachine": "CinemachineBrain"
+      }
+    },
+    "Cutscene_JudgementSuccess":
+    {
+      "path": "Cutscene/Cutscene_JudgementSuccess",
+      "trackDynamicBindings":
+      {
+        "Target_Activation": "CurrentTarget",
+        "Cinemachine": "CinemachineBrain"
+      }
+    },
+    "Cutscene_JudgementFail":
+    {
+      "path": "Cutscene/Cutscene_JudgementFail",
+      "trackDynamicBindings":
+      {
+        "Target_Activation": "CurrentTarget",
+        "Cinemachine": "CinemachineBrain"
+      }
+    },
+    "Cutscene_FocusNextGate":
+    {
+      "path": "Cutscene/Cutscene_FocusNextGate",
+      "trackDynamicBindings":
+      {
+        "Cinemachine": "CinemachineBrain"
+      }
+    }
+  }
+}

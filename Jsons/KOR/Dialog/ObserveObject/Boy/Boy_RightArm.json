@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Male_RArm_1",
+  "nodes": {
+    "Observe_Male_RArm_1": {
+      "talker": "주인공",
+      "text": "(오른팔 쪽이다. 이쪽도 꼼꼼하게 팔꿈치 주변을 살펴야 해.)",
+      "nextNodeID": "Observe_Male_RArm_2"
+    },
+    "Observe_Male_RArm_2": {
+      "talker": "겁에 질린 생존자",
+      "text": "제발 그 총구 좀 치워주시면 안 됩니까...? 팔이 저려서 덜덜 떨리는 거라고요...",
+      "nextNodeID": "Observe_Male_RArm_3"
+    },
+    "Observe_Male_RArm_3": {
+      "talker": "주인공",
+      "text": "(미세한 경련이 있긴 하지만 극도의 공포 때문인 것 같다. 특이 사항은 발견되지 않았다.)"
+    }
+  }
+}

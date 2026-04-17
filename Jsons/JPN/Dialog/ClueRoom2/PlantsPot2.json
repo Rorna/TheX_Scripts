@@ -1,0 +1,9 @@
+{
+  "startNodeID": "PlantsPot_1",
+  "nodes": {
+    "PlantsPot_1": {
+      "talker": "プレイヤー",
+      "text": "植物が植えられた鉢植えだ。"
+    }
+  }
+}

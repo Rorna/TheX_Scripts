@@ -1,0 +1,9 @@
+{
+  "startNodeID": "EnergyCrystal_1",
+  "nodes": {
+    "EnergyCrystal_1": {
+      "talker": "プレイヤー",
+      "text": "宇宙船で使われるエネルギークリスタルだ。"
+    }
+  }
+}

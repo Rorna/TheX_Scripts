@@ -1,0 +1,14 @@
+{
+  "startNodeID": "HologramShip_1",
+  "nodes": {
+    "HologramShip_1": {
+      "talker": "プレイヤー",
+      "text": "宇宙船のホログラムだ。",
+      "nextNodeID": "HologramShip_2"
+    },
+    "HologramShip_2": {
+      "talker": "プレイヤー",
+      "text": "時々、ホログラムの宇宙船を見ながら物思いにふけるのも悪くないな。"
+    }
+  }
+}

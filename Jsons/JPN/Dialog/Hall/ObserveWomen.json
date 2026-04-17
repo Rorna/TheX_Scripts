@@ -1,0 +1,65 @@
+{
+  "startNodeID": "StartBranch",
+  "nodes": {
+    "StartBranch":
+    {
+      "talker": "震えている女性",
+      "text": "ガクガク…",
+      
+      "branchType": "Quest",
+      "branchValue": "Q_KillTheX",
+      "nextNodeID": "AllEnd",
+      "failTargetNodeID": "NPC_Female_Start"
+    },
+    "AllEnd":
+    {
+      "talker": "震えている女性",
+      "text": "よかった…！"
+    },
+    "NPC_Female_Start": {
+      "talker": "震えている女性",
+      "text": "きゃあっ…！ なな何ですか！ 私は何もしていません！ 感染者じゃないんです！",
+      
+      "branchType": "Quest",
+      "branchValue": "Q_CollectAllClue",
+      "nextNodeID": "NPC_CanObserve",
+      "failTargetNodeID": "NPC_CannotObserve"
+    },
+    "NPC_CannotObserve": {
+      "talker": "プレイヤー",
+      "text": "（まだ感染の有無を確実に判別する手がかりが足りない。誤判断を防ぐため、まずは残りの手がかりを見つけなければ。）",
+      "choices": [
+        { "text": "下がる", "targetNodeID": "NPC_End" }
+      ]
+    },
+    "NPC_CanObserve": {
+      "talker": "震えている女性",
+      "text": "どうか撃たないでください… 家に残してきた子供がいるんです… 私は絶対に感染者じゃありません。誓います…！",
+      "choices": [
+        { "text": "「観察」する", "targetNodeID": "NPC_ReadyToObserve" },
+        { "text": "一旦下がる", "targetNodeID": "NPC_End" }
+      ]
+    },
+    "NPC_ReadyToObserve": {
+      "talker": "プレイヤー",
+      "text": "（手がかりは全て集まった。この者の体に異常な兆候がないか確認してみよう…）",
+      "nextNodeID": "NPC_ReadyToObserve1"
+    },
+    "NPC_ReadyToObserve1": {
+      "talker": "プレイヤー",
+      "text": "これより観察室へ移動します。観察室では着替えの後、両腕を広げた状態で待機してください。",
+      "nextNodeID": "Action_Observe"
+    },
+    "Action_Observe": {
+      "text": "",
+      "action": {
+        "actionType": "MoveScene",
+        "targetID": "ObserveScene"
+      }
+    },
+    "NPC_End": {
+      "talker": "震えている女性",
+      "text": "うぅ… どうか命だけは… 助けてください…"
+    }
+  }
+}

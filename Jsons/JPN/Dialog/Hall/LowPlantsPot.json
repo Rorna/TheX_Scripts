@@ -1,0 +1,19 @@
+{
+  "startNodeID": "LowPlantsPot_1",
+  "nodes": {
+    "LowPlantsPot_1": {
+      "talker": "プレイヤー",
+      "text": "36光年離れた場所で採取された植物だ。",
+      "nextNodeID": "LowPlantsPot_2"
+    },
+    "LowPlantsPot_2": {
+      "talker": "プレイヤー",
+      "text": "見た目は地球のキノコに似ているが、人を噛むこともある。",
+      "nextNodeID": "LowPlantsPot_3"
+    },
+    "LowPlantsPot_3": {
+      "talker": "プレイヤー",
+      "text": "近づかないようにしよう…"
+    }
+  }
+}

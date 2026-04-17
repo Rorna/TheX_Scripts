@@ -1,0 +1,9 @@
+{
+  "startNodeID": "PlantsPot_1",
+  "nodes": {
+    "PlantsPot_1": {
+      "talker": "플레이어",
+      "text": "식물이 담긴 화분이다."
+    }
+  }
+}

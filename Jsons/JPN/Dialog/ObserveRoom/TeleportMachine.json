@@ -1,0 +1,79 @@
+{
+  "startNodeID": "ReturnMachine_Main",
+  "nodes": {
+    "ReturnMachine_Main": {
+      "talker": "観察室システム",
+      "text": "本観察室は完璧な無菌処理が完了した特殊エリアです。大気汚染の影響を受けないため宇宙服の脱衣が可能であり、内部での交戦にも耐えられるよう特別に設計されています。ご希望のシステムを選択してください。",
+      "choices": [
+        { "text": "「観察」進行ガイド", "targetNodeID": "Info_Observe" },
+        { "text": "「観察モード」操作方法", "targetNodeID": "Info_Controls" },
+        { "text": "「審判」および「特殊弾」ガイド", "targetNodeID": "Info_Judgement_1" },
+        { "text": "母艦へ帰還", "targetNodeID": "Prompt_Return" },
+        { "text": "終了", "targetNodeID": "Machine_End" }
+      ],
+      "sound": "SFX_Boot"
+    },
+    "Info_Observe": {
+      "talker": "観察室システム",
+      "text": "疑わしい対象を見ると、画面左下に状態アイコンが有効になります。その状態でキーボードの[Tab]キーを押すと「観察モード」に突入します。\n観察モードを終了するには、再度[Tab]キーを入力してください。",
+      "nextNodeID": "ReturnMachine_Main"
+    },
+    "Info_Controls": {
+      "talker": "観察室システム",
+      "text": "観察モード突入時、システムUIと操作系が観察に最適化されます。\n有効になったマウスカーソルを疑わしい部位に合わせた後、相互作用キー[F]を押して精密観察を行ってください。マウスホイールで視界のズームイン/ズームアウトが可能です。",
+      "nextNodeID": "Info_Controls_2"
+    },
+    "Info_Controls_2": {
+      "talker": "観察室システム",
+      "text": "また、画面に表示された手がかりアイコンをマウスクリックすることで、その手がかりの詳細説明と照らし合わせることができます。",
+      "nextNodeID": "ReturnMachine_Main"
+    },
+    "Info_Judgement_1": {
+      "talker": "観察室システム",
+      "text": "観察の結果、対象が無症状感染体であると確定した場合、観察モード解除状態でキーボードの[J]キーを入力して「審判」を執行することができます。",
+      "nextNodeID": "Info_Judgement_2"
+    },
+    "Info_Judgement_2": {
+      "talker": "観察室システム",
+      "text": "審判の際、対象に「特殊弾」を発射します。特殊弾は変異体Xを宿主から強制的に分離させる目的があり、補給数量が非常に限られています。",
+      "nextNodeID": "Info_Judgement_3"
+    },
+    "Info_Judgement_3": {
+      "talker": "観察室システム",
+      "text": "対象が実際の感染体であれば、直ちに変異体本来の姿に分離して交戦に突入します。\n警告：非感染者に審判を下した場合、対象は即死します。",
+      "nextNodeID": "Info_Judgement_4"
+    },
+    "Info_Judgement_4": {
+      "talker": "観察室システム",
+      "text": "感染体を排除するか、無実の犠牲者を出すかは、完全に貴官の手に懸かっています。引き金を引く前に慎重に判断してください。",
+      "nextNodeID": "ReturnMachine_Main"
+    },
+    "Prompt_Return": {
+      "talker": "観察室システム",
+      "text": "安全エリア（艦内）へ復帰しますか？",
+      "choices": [
+        { "text": "はい（帰還する）", "targetNodeID": "PrepareToReturn" },
+        { "text": "いいえ", "targetNodeID": "ReturnMachine_Main" }
+      ]
+    },
+    "PrepareToReturn": {
+      "talker": "観察室システム",
+      "text": "帰還シーケンスを開始します…",
+      "sound": "SFX_Warp",
+      "nextNodeID": "Action_Return"
+    },
+    "Action_Return": {
+      "talker": "観察室システム",
+      "text": "",
+      "action": {
+        "actionType": "MoveScene",
+        "targetID": "Stage1"
+      }
+    },
+    "Machine_End": {
+      "talker": "観察室システム",
+      "text": "システムの使用を終了します。幸運を祈ります、エージェント。",
+      "sound": "SFX_Shutdown"
+    }
+  }
+}

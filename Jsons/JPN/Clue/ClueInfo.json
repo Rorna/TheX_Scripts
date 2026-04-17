@@ -1,0 +1,22 @@
+{
+  "clues": [
+    {
+      "id": "C_BigSpot",
+      "title": "体に現れる大きな斑点",
+      "description": "音声記録から獲得した手がかり。感染者の体のどこかに、不気味で「大きな斑点」が現れるという。",
+      "spriteID": "Clue_Obtained"
+    },
+    {
+      "id": "C_BlueColor",
+      "title": "鮮やかな青色",
+      "description": "研究員のメモから獲得した手がかり。感染者の体にできる斑点の色は、鮮やかな「青色」をしているという。",
+      "spriteID": "Clue_Obtained"
+    },
+    {
+      "id": "C_ElbowLocation",
+      "title": "肘周辺の痕跡",
+      "description": "慌てて書かれた本から獲得した手がかり。感染者は痕跡を服で隠しており、主に「肘」の周辺で見つかるという。",
+      "spriteID": "Clue_Obtained"
+    }
+  ]
+}

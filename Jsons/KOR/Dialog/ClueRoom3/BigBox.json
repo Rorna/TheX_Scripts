@@ -1,0 +1,9 @@
+{
+  "startNodeID": "BigBox_1",
+  "nodes": {
+    "BigBox_1": {
+      "talker": "플레이어",
+      "text": "정체모를 커다란 상자다."
+    }
+  }
+}

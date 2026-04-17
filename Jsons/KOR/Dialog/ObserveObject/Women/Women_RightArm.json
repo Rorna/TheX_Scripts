@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Female_RArm_1",
+  "nodes": {
+    "Observe_Female_RArm_1": {
+      "talker": "주인공",
+      "text": "(오른팔도 마저 확인해야 한다. 옷깃을 살짝 들춰보자.)",
+      "nextNodeID": "Observe_Female_RArm_2"
+    },
+    "Observe_Female_RArm_2": {
+      "talker": "떨고 있는 여성",
+      "text": "아파요...! 꽉 잡지 마세요... 전 진짜 건강하다고요... 제발 믿어주세요...",
+      "nextNodeID": "Observe_Female_RArm_3"
+    },
+    "Observe_Female_RArm_3": {
+      "talker": "주인공",
+      "text": "(저항이 심하지만 피부는 깨끗하다. 의심할 만한 흉터나 반점은 없다.)"
+    }
+  }
+}

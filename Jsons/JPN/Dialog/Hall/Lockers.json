@@ -1,0 +1,9 @@
+{
+  "startNodeID": "Lockers_1",
+  "nodes": {
+    "Lockers_1": {
+      "talker": "プレイヤー",
+      "text": "クルーたちの個人用ロッカーだ。"
+    }
+  }
+}

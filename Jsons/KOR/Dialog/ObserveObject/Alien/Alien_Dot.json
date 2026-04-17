@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Alien_Dot_1",
+  "nodes": {
+    "Observe_Alien_Dot_1": {
+      "talker": "주인공",
+      "text": "(팔꿈치에 유독 크고 짙은 점이 하나 있다. 단서의 '큰 점'과 일치하는 것 같은데... 이 녀석인가?)",
+      "nextNodeID": "Observe_Alien_Dot_2"
+    },
+    "Observe_Alien_Dot_2": {
+      "talker": "당황한 외계인",
+      "text": "삐릭! 총 쏘지 마라! 그거 우리 종족 전통 문양이다! 어릴 때 다 새기는 거다! 오해 금지다!",
+      "nextNodeID": "Observe_Alien_Dot_3"
+    },
+    "Observe_Alien_Dot_3": {
+      "talker": "주인공",
+      "text": "(아니... 자세히 보니 점 주변이 기괴하게 꿈틀거리고 있다. 게다가 선명한 푸른빛... 이 자가 바로 감염자다!)"
+    }
+  }
+}

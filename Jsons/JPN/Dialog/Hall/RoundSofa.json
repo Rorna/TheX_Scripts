@@ -1,0 +1,9 @@
+{
+  "startNodeID": "RoundSofa_1",
+  "nodes": {
+    "RoundSofa_1": {
+      "talker": "プレイヤー",
+      "text": "ふかふかのソファーだ。"
+    }
+  }
+}

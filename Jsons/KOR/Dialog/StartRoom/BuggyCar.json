@@ -1,0 +1,19 @@
+{
+  "startNodeID": "BuggyCar_1",
+  "nodes": {
+    "BuggyCar_1": {
+      "talker": "플레이어",
+      "text": "지구에서는 멀미라는 걸 느껴본 적이 없는데.",
+      "nextNodeID": "BuggyCar_2"
+    },
+    "BuggyCar_2": {
+      "talker": "플레이어",
+      "text": "꼭 이것만 타면 멀미가 나서 탐사할 때마다 고생했었지.",
+      "nextNodeID": "BuggyCar_3"
+    },
+    "BuggyCar_3": {
+      "talker": "플레이어",
+      "text": "승차감을 좀 어떻게 하면 좋을 텐데."
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "startNodeID": "Clue1_Start",
+  "nodes": {
+    "Clue1_Start": {
+      "talker": "プレイヤー",
+      "text": "おお…音声再生装置か…？ちょっと再生してみよう…",
+      "nextNodeID": "Clue1_Play"
+    },
+    "Clue1_Play": {
+      "talker": "レコーダー",
+      "text": "…ザザッ…ザー…また、感染者には次のような…ザッ…特徴が…体に…ザザザッ…『大きな斑点』が現れる……",
+      "nextNodeID": "GetClue_Prompt",
+      "sound": "SFX_RadioSound"
+    },
+    "GetClue_Prompt": {
+      "talker": "プレイヤー",
+      "text": "大きな斑点か…メモしておこう…",
+      "branchType": "Clue",
+      "branchValue": "C_BigSpot",
+      "nextNodeID": "AlreadyGet",
+      "failTargetNodeID": "Action_GetClue"
+    },
+    "Action_GetClue": {
+      "talker": "システム",
+      "text": "手がかり「体に現れる大きな斑点」を獲得しました。",
+      "sound": "SFX_GetClue",
+      "action": {
+        "actionType": "GetClue",
+        "targetID": "C_BigSpot"
+      }
+    },
+    "AlreadyGet": {
+      "talker": "プレイヤー",
+      "text": "この手がかりはすでにメモしてあるな。"
+    }
+  }
+}

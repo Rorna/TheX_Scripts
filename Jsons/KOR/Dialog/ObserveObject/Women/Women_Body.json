@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Female_Torso_1",
+  "nodes": {
+    "Observe_Female_Torso_1": {
+      "talker": "주인공",
+      "text": "(몸통 부위를 확인해보자. 숨을 헐떡이며 어깨가 심하게 오르내리고 있다.)",
+      "nextNodeID": "Observe_Female_Torso_2"
+    },
+    "Observe_Female_Torso_2": {
+      "talker": "떨고 있는 여성",
+      "text": "흑흑... 제발 옷은 당기지 마세요... 전 정말 괴물한테 물린 적 없단 말이에요...",
+      "nextNodeID": "Observe_Female_Torso_3"
+    },
+    "Observe_Female_Torso_3": {
+      "talker": "주인공",
+      "text": "(옷 겉면이나 드러난 목덜미 부근에 '큰 점' 같은 흔적은 없다. 넘어가자.)"
+    }
+  }
+}

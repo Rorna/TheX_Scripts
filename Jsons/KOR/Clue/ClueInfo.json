@@ -1,0 +1,22 @@
+{
+  "clues": [
+    {
+      "id": "C_BigSpot",
+      "title": "몸에 나타나는 큰 점",
+      "description": "음성 기록을 통해 획득한 단서. 감염자의 신체 어딘가에 기괴하고 '큰 점'이 나타난다고 한다.",
+      "spriteID": "Clue_Obtained"
+    },
+    {
+      "id": "C_BlueColor",
+      "title": "선명한 파란색",
+      "description": "연구원의 메모에서 획득한 단서. 감염자의 몸에 생기는 점의 색깔은 선명한 '파란색'을 띤다고 한다.",
+      "spriteID": "Clue_Obtained"
+    },
+    {
+      "id": "C_ElbowLocation",
+      "title": "팔꿈치 부위의 흔적",
+      "description": "다급하게 쓰인 책에서 획득한 단서. 감염자는 흔적을 옷으로 가리며, 주로 '팔꿈치' 부위에서 발견된다고 한다.",
+      "spriteID": "Clue_Obtained"
+    }
+  ]
+}

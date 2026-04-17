@@ -1,0 +1,23 @@
+{
+  "startNodeID": "Guide_NextFloor_1",
+  "nodes": {
+    "Guide_NextFloor_1": {
+      "talker": "エイミー",
+      "text": "ふぅ… お疲れ様。とりあえずこれでこのエリア内の感染体はもういないみたいね。",
+      "nextNodeID": "Guide_NextFloor_2"
+    },
+    "Guide_NextFloor_2": {
+      "talker": "エイミー",
+      "text": "次は変異体のコアを見つけるために上の階へ行かないと。あそこのロックが解除されたドア、見える？",
+      "nextNodeID": "Guide_NextFloor_3"
+    },
+    "Guide_NextFloor_3": {
+      "text": "",
+      "action":
+      {
+        "actionType": "PlayCutScene",
+        "targetID": "Cutscene_FocusNextGate"
+      }
+    }
+  }
+}

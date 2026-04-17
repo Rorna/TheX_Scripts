@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Tree_1",
+  "nodes": {
+    "Tree_1": {
+      "talker": "플레이어",
+      "text": "10광년 떨어진 바다형 행성에서 채취한 생물이다.",
+      "nextNodeID": "Tree_2"
+    },
+    "Tree_2": {
+      "talker": "플레이어",
+      "text": "생긴 건 나무같이 생겼는데, 이 녀석, 밤이 되면 돌아다닌다고 한다.",
+      "nextNodeID": "Tree_3"
+    },
+    "Tree_3": {
+      "talker": "플레이어",
+      "text": "뭐야… 그거… 무서워…"
+    }
+  }
+}

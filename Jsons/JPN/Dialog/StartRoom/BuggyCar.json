@@ -1,0 +1,19 @@
+{
+  "startNodeID": "BuggyCar_1",
+  "nodes": {
+    "BuggyCar_1": {
+      "talker": "プレイヤー",
+      "text": "地球では車酔いなんてしたことなかったのに。",
+      "nextNodeID": "BuggyCar_2"
+    },
+    "BuggyCar_2": {
+      "talker": "プレイヤー",
+      "text": "これに乗ると必ず酔うから、探査のたびに苦労したんだよな。",
+      "nextNodeID": "BuggyCar_3"
+    },
+    "BuggyCar_3": {
+      "talker": "プレイヤー",
+      "text": "乗り心地をもうちょっとどうにかしてほしいもんだ。"
+    }
+  }
+}

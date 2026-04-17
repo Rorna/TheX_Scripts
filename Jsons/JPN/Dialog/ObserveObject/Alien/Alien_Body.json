@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Alien_Torso_1",
+  "nodes": {
+    "Observe_Alien_Torso_1": {
+      "talker": "プレイヤー",
+      "text": "（胴体部分だ。変異の痕跡はなさそうだ。）",
+      "nextNodeID": "Observe_Alien_Torso_2"
+    },
+    "Observe_Alien_Torso_2": {
+      "talker": "困惑した宇宙人",
+      "text": "息苦しいピリリ… その恐ろしい武器をどけてくれないか…？",
+      "nextNodeID": "Observe_Alien_Torso_3"
+    },
+    "Observe_Alien_Torso_3": {
+      "talker": "プレイヤー",
+      "text": "（特別に腫れ上がったり『大きな斑点』が現れている箇所は見当たらない。）"
+    }
+  }
+}

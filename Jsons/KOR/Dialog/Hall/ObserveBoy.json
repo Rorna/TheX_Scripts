@@ -1,0 +1,65 @@
+{
+  "startNodeID": "StartBranch",
+  "nodes": {
+    "StartBranch":
+    {
+      "talker": "겁에 질린 생존자",
+      "text": "후우우우.... 후우.....",
+      
+      "branchType": "Quest",
+      "branchValue": "Q_KillTheX",
+      "nextNodeID": "AllEnd",
+      "failTargetNodeID": "NPC_Suspect_Start"
+    },
+    "AllEnd":
+    {
+      "talker": "겁에 질린 생존자",
+      "text": "살았군요....!"
+    },
+    "NPC_Suspect_Start": {
+      "talker": "겁에 질린 생존자",
+      "text": "힉...! 다, 다가오지 마세요! 총구 치워요! 전 감염자가 아니에요! 진짜라고요...!",
+      
+      "branchType": "Quest",
+      "branchValue": "Q_CollectAllClue",
+      "nextNodeID": "NPC_CanObserve",
+      "failTargetNodeID": "NPC_CannotObserve"
+    },
+    "NPC_CannotObserve": {
+      "talker": "Player",
+      "text": "(아직 감염 여부를 확실히 판별할 단서가 부족하다. 오판을 막기 위해 단서부터 마저 찾아야 해.)",
+      "choices": [
+        { "text": "알았으니 진정해라. (물러난다)", "targetNodeID": "NPC_End" }
+      ]
+    },
+    "NPC_CanObserve": {
+      "talker": "겁에 질린 생존자",
+      "text": "제, 제 몸을 쏘려는 건 아니죠...? 전 정말 아무 증상도 없단 말입니다... 제발 살려주세요...!",
+      "choices": [
+        { "text": "[관찰] 대상을 유심히 살펴본다", "targetNodeID": "NPC_ReadyToObserve" },
+        { "text": "우선 물러난다", "targetNodeID": "NPC_End" }
+      ]
+    },
+    "NPC_ReadyToObserve": {
+      "talker": "Player",
+      "text": "(단서들이 모두 모였어. 이 자의 몸에 이상 징후가 없는지 확인해 보자...)",
+      "nextNodeID": "NPC_ReadyToObserve1"
+    },
+    "NPC_ReadyToObserve1": {
+      "talker": "Player",
+      "text": "지금부터 관찰실로 이동하겠습니다. 관찰실에서는 환복후 양팔을 벌린채로 대기해주십시오.",
+      "nextNodeID": "Action_Observe"
+    },
+    "Action_Observe": {
+      "text": "",
+      "action": {
+        "actionType": "MoveScene",
+        "targetID": "ObserveScene"
+      }
+    },
+    "NPC_End": {
+      "talker": "겁에 질린 생존자",
+      "text": "제발... 절 죽이지 마세요... 흑흑..."
+    }
+  }
+}

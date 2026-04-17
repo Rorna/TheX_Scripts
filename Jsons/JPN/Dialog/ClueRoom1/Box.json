@@ -1,0 +1,9 @@
+{
+  "startNodeID": "Box_1",
+  "nodes": {
+    "Box_1": {
+      "talker": "プレイヤー",
+      "text": "箱だ。"
+    }
+  }
+}

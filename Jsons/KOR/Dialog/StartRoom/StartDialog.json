@@ -1,0 +1,145 @@
+{
+  "startNodeID": "helper1",
+  "nodes":
+  {
+    "helper1":
+    {
+        "talker": "시스템",
+        "text": "물체와 상호작용하려면 F 혹은 마우스 왼쪽 키를 누르세요.",
+        "nextNodeID": "helper2"
+    },
+    "helper2":
+    {
+        "talker": "시스템",
+        "text": "해당 키들은 대화를 진행하는데도 사용됩니다.",
+        "nextNodeID": "player"
+    },
+    "player":
+    {
+        "talker": "플레이어",
+        "text": "...뭐야? 누구야...?",
+        "nextNodeID": "helper3"
+    },
+    "helper3":
+    {
+      "talker": "???",
+      "text": "....치지직....",
+      "nextNodeID": "helper4",
+      "sound": "SFX_RadioSound"
+    },
+    "helper4":
+    {
+      "talker": "???",
+      "text": "....치지직....",
+      "sound": "SFX_RadioSound",
+      "nextNodeID": "Player1"
+    },
+    "Player1":
+    {
+      "talker": "플레이어",
+      "text": "...누구야...?",
+      "nextNodeID": "helper5"
+    },
+    "helper5":
+    {
+    "talker": "???",
+    "text": "....아...잘 들리는 것 같네!!",
+    "sound": "SFX_RadioSound",
+    "nextNodeID": "Player2"
+    },
+    "Player2":
+    {
+    "talker": "플레이어",
+    "text": "그러니까 누구야...!",
+    "nextNodeID": "helper6"
+    },
+    "helper6":
+    {
+    "talker": "에이미",
+    "text": "에이미!! 아직도 내 목소리를 기억을 못하는거야?!",
+    "nextNodeID": "Player3"
+    },
+    "Player3":
+    {
+    "talker": "플레이어",
+    "text": "뭐야... 에이미였나... 아무튼 무슨 일이지.",
+    "nextNodeID": "helper7"
+    },
+    "helper7":
+    {
+    "talker": "에이미",
+    "text": "정말... 이젠 좀 외우라고... 아무튼, 이번 임무는 어떤 것 같아?",
+    "nextNodeID": "Player4"
+    },
+    "Player4":
+    {
+    "talker": "플레이어",
+    "text": "임...무? 아아.. 감염체 제거말인가... 아주 순조롭지.",
+    "nextNodeID": "helper8"
+    },
+    "helper8":
+    {
+    "talker": "에이미",
+    "text": "그래, 감염체 제거! 잘 알고 있네. 하지만 조심해야해.",
+    "nextNodeID": "helper9"
+    },
+    "helper9":
+    {
+    "talker": "에이미",
+    "text": "감염체는 겉보기에는 아주 멀쩡하게 생겨서 관찰을 잘해야해.",
+    "nextNodeID": "helper10"
+    },
+    "helper10":
+    {
+    "talker": "에이미",
+    "text": "하지만 다행히도 연구원들이 감염체 판별에 대한 단서들을 남겨놨어.",
+    "nextNodeID": "Player5"
+    },
+    "Player5":
+    {
+    "talker": "플레이어",
+    "text": "아.. 그랬지. 그래 덕분에 아주 일이 쉬워지겠어.",
+    "nextNodeID": "helper11"
+    },
+    "helper11":
+    {
+    "talker": "에이미",
+    "text": "문제는, 감염자의 눈을 피해서 여기저기에 숨겨놨다는 거지.",
+    "nextNodeID": "Player6"
+    },
+    "Player6":
+    {
+    "talker": "플레이어",
+    "text": "이런 젠장... 요컨대 돌아다니면서 단서들을 찾아야한단 말이군...",
+    "nextNodeID": "helper12"
+    },
+    "helper12":
+    {
+    "talker": "에이미",
+    "text": "그래, 우선 단서들을 모으자. 이 층에서는 단서가 3개가 있는듯해. 우선 그것부터 수집해보자.",
+    "nextNodeID": "Player7"
+    },
+    "Player7":
+    {
+    "talker": "플레이어",
+    "text": "그래야겠군... 고마워 에이미. 슬슬 출발해야겠어.",
+    "nextNodeID": "helper13"
+    },
+    "helper13":
+    {
+    "talker": "에이미",
+    "text": "별말씀을, 정보들을 자세히 확인하고 싶으면, 곳곳에 컴퓨터가 있으니 거기서 정보를 얻을 수 있을거야.",
+    "nextNodeID": "Action_Quest" 
+    },
+    "Action_Quest":
+    {
+    "talker": "에이미",
+    "text": "돌아다니다가 컴퓨터가 보이면 지나치지말고 한번쯤은 확인해봐.",
+    "action":
+      {
+        "actionType": "GetQuest",
+        "targetID": "Q_CollectAllClue"
+      }
+    }
+  }
+}

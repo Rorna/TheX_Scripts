@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Male_LLeg_1",
+  "nodes": {
+    "Observe_Male_LLeg_1": {
+      "talker": "주인공",
+      "text": "(왼쪽 다리 부위. 서 있는 다리를 심하게 떨고 있군.)",
+      "nextNodeID": "Observe_Male_LLeg_2"
+    },
+    "Observe_Male_LLeg_2": {
+      "talker": "겁에 질린 생존자",
+      "text": "다, 다리에 힘이 풀려서 서 있기도 힘듭니다... 저 진짜 감염자 아니에요...",
+      "nextNodeID": "Observe_Male_LLeg_3"
+    },
+    "Observe_Male_LLeg_3": {
+      "talker": "주인공",
+      "text": "(바지 위로 드러난 부근에도 감염이나 변이의 징후는 전혀 보이지 않는다.)"
+    }
+  }
+}

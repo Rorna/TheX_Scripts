@@ -1,0 +1,14 @@
+{
+  "startNodeID": "Bed_1",
+  "nodes": {
+    "Bed_1": {
+      "talker": "플레이어",
+      "text": "침대가 있다.",
+      "nextNodeID": "Bed_2"
+    },
+    "Bed_2": {
+      "talker": "플레이어",
+      "text": "특별한 건 없는 것 같다."
+    }
+  }
+}

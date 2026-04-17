@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Female_RLeg_1",
+  "nodes": {
+    "Observe_Female_RLeg_1": {
+      "talker": "プレイヤー",
+      "text": "（最後に右脚も調べてみよう。）",
+      "nextNodeID": "Observe_Female_RLeg_2"
+    },
+    "Observe_Female_RLeg_2": {
+      "talker": "震えている女性",
+      "text": "お願いですからもうやめてください…うぅ…",
+      "nextNodeID": "Observe_Female_RLeg_3"
+    },
+    "Observe_Female_RLeg_3": {
+      "talker": "プレイヤー",
+      "text": "（特別な異常の兆候は全く発見されなかった。）"
+    }
+  }
+}

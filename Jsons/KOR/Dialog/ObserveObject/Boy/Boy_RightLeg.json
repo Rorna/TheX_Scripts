@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Male_RLeg_1",
+  "nodes": {
+    "Observe_Male_RLeg_1": {
+      "talker": "주인공",
+      "text": "(오른쪽 다리도 마저 살펴보자.)",
+      "nextNodeID": "Observe_Male_RLeg_2"
+    },
+    "Observe_Male_RLeg_2": {
+      "talker": "겁에 질린 생존자",
+      "text": "그렇게 샅샅이 뒤져봤자 아무것도 안 나올 겁니다! 전 건강하다고요!",
+      "nextNodeID": "Observe_Male_RLeg_3"
+    },
+    "Observe_Male_RLeg_3": {
+      "talker": "주인공",
+      "text": "(특별한 이상 징후나 피부에 번진 '푸른 반점'은 발견되지 않았다.)"
+    }
+  }
+}

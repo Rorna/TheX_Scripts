@@ -1,0 +1,9 @@
+{
+  "startNodeID": "EnergyTank_1",
+  "nodes": {
+    "EnergyTank_1": {
+      "talker": "플레이어",
+      "text": "다양한 곳에 사용되는 에너지 탱크이다."
+    }
+  }
+}

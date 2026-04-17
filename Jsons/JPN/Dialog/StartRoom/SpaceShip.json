@@ -1,0 +1,14 @@
+{
+  "startNodeID": "SpaceShip_1",
+  "nodes": {
+    "SpaceShip_1": {
+      "talker": "プレイヤー",
+      "text": "新人研修の後に支給された個人用の探査船だ。",
+      "nextNodeID": "SpaceShip_2"
+    },
+    "SpaceShip_2": {
+      "talker": "プレイヤー",
+      "text": "最初はすごく緊張したけど。今じゃ目をつぶってても運転できるようになったな。"
+    }
+  }
+}

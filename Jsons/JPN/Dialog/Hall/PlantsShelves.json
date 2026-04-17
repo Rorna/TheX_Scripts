@@ -1,0 +1,14 @@
+{
+  "startNodeID": "PlantsShelves_1",
+  "nodes": {
+    "PlantsShelves_1": {
+      "talker": "プレイヤー",
+      "text": "見た目は雑草みたいだが、意外と食べられるし味もそこそこいける。",
+      "nextNodeID": "PlantsShelves_2"
+    },
+    "PlantsShelves_2": {
+      "talker": "プレイヤー",
+      "text": "本当にいろんな生物がいるもんだな。"
+    }
+  }
+}

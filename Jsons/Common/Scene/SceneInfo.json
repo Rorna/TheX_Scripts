@@ -1,0 +1,17 @@
+{
+  "sceneInfo":
+  {
+    "MainMenu":
+    {
+      "sceneType": "MainMenu"
+    },
+    "Stage1":
+    {
+      "sceneType": "Field"
+    },
+    "ObserveScene":
+    {
+      "sceneType": "Observe"
+    }
+  }
+}

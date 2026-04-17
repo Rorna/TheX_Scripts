@@ -1,0 +1,68 @@
+{
+  "startNodeID": "SaveAndLoad",
+  "nodes": {
+    "SaveAndLoad": {
+      "talker": "端末",
+      "text": "システム稼働。データをセーブおよびロードする装置です。",
+      "nextNodeID": "SelectFunc",
+      "sound": "SFX_Boot"
+    },
+    "SelectFunc": {
+      "talker": "端末",
+      "text": "ご希望の機能を選択してください。",
+      "choices": [
+        { "text": "Save", "targetNodeID": "Ask_Save" },
+        { 
+          "text": "Load", 
+          "branchType": "Save",
+          "targetNodeID": "Action_Load", 
+          "failTargetNodeID": "NoLoadData"
+        },
+        { "text": "Cancel", "targetNodeID": "Cancel" }
+      ]
+    },
+    "NoLoadData": {
+      "talker": "端末",
+      "text": "セーブデータがありません！！！",
+      "nextNodeID": "SelectFunc"
+    },
+    "Ask_Save": {
+      "talker": "端末",
+      "text": "セーブしますか？",
+      "choices": [
+        { "text": "はい", "targetNodeID": "Action_Save" },
+        { "text": "いいえ", "targetNodeID": "SelectFunc" }
+      ]
+    },
+    "Ask_Load": {
+      "talker": "端末",
+      "text": "ロードしますか？",
+      "choices": [
+        { "text": "はい", "targetNodeID": "Action_Load" },
+        { "text": "いいえ", "targetNodeID": "SelectFunc" }
+      ]
+    },
+    "Action_Save": {
+      "talker": "端末",
+      "text": "現在の状況をセーブしました。",
+      "action": {
+        "actionType": "RunSave",
+        "targetID": ""
+      },
+      "sound": "SFX_Save"
+    },
+    "Action_Load": {
+      "text": "",
+      "action": {
+        "actionType": "RunLoad",
+        "targetID": "",
+        "sound": "SFX_Load"
+      }
+    },
+    "Cancel": {
+      "talker": "端末",
+      "text": "システム終了。装置を停止します。",
+      "sound": "SFX_Shutdown"
+    }
+  }
+}

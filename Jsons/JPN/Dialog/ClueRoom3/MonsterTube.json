@@ -1,0 +1,19 @@
+{
+  "startNodeID": "MonsterTube_1",
+  "nodes": {
+    "MonsterTube_1": {
+      "talker": "プレイヤー",
+      "text": "何かが入ったクリスタルだ。",
+      "nextNodeID": "MonsterTube_2"
+    },
+    "MonsterTube_2": {
+      "talker": "プレイヤー",
+      "text": "妙な音を立てて妙に動いている…",
+      "nextNodeID": "MonsterTube_3"
+    },
+    "MonsterTube_3": {
+      "talker": "プレイヤー",
+      "text": "近づかないでおこう…"
+    }
+  }
+}

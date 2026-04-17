@@ -1,0 +1,29 @@
+{
+  "startNodeID": "Door_Interact_1",
+  "nodes": {
+    "Door_Interact_1": {
+      "talker": "주인공",
+      "text": "(이 문을 지나면 다음 층의 심층 구역으로 연결되는 것 같다. 단서 수집과 탄약 정비는 충분히 끝났나?)",
+      "nextNodeID": "Door_Interact_Prompt"
+    },
+    "Door_Interact_Prompt": {
+      "talker": "시스템",
+      "text": "다음 층으로 이동하시겠습니까? (이동 후에는 현재 구역으로 되돌아올 수 없습니다.)",
+      "choices": [
+        { "text": "다음 층으로 진입한다", "targetNodeID": "Action_MoveNextStage" },
+        { "text": "구역을 조금 더 둘러본다", "targetNodeID": "Door_Cancel" }
+      ]
+    },
+    "Action_MoveNextStage": {
+      "text": "",
+      "action": {
+        "actionType": "RunEnding",
+        "targetID": ""
+      }
+    },
+    "Door_Cancel": {
+      "talker": "주인공",
+      "text": "(아직 챙기지 못한 단서나 보급품이 있을지 모른다. 확실하게 준비한 뒤에 넘어가자.)"
+    }
+  }
+}

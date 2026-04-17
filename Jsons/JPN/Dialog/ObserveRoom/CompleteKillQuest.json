@@ -1,0 +1,20 @@
+{
+  "startNodeID": "KillQuest_Clear_1",
+  "nodes": {
+    "KillQuest_Clear_1": {
+      "talker": "エイミー",
+      "text": "お疲れ様！エリア内の変異体の生体反応がすべて消滅したのを確認したよ。",
+      "nextNodeID": "KillQuest_Clear_2",
+      "sound": "SFX_RadioSound"
+    },
+    "KillQuest_Clear_2": {
+      "talker": "エイミー",
+      "text": "今システム制御が戻ってきて、ロックされていたメインゲートが開いたみたい！",
+      "nextNodeID": "KillQuest_Clear_3"
+    },
+    "KillQuest_Clear_3": {
+      "talker": "プレイヤー",
+      "text": "（よし、ついに道が開いたな。急いで開いたドアの方へ行ってみよう。）"
+    }
+  }
+}

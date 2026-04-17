@@ -1,0 +1,19 @@
+{
+  "startNodeID": "RoboticArm_1",
+  "nodes": {
+    "RoboticArm_1": {
+      "talker": "플레이어",
+      "text": "우주복 수리 전용 머신이다.",
+      "nextNodeID": "RoboticArm_2"
+    },
+    "RoboticArm_2": {
+      "talker": "플레이어",
+      "text": "직접 수리를 안 하게 돼서 무척이나 편리하지만...",
+      "nextNodeID": "RoboticArm_3"
+    },
+    "RoboticArm_3": {
+      "talker": "플레이어",
+      "text": "이따금씩 잘 안될 때도 있단 말이지."
+    }
+  }
+}

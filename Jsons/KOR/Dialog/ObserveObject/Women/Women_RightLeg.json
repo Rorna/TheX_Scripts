@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Female_RLeg_1",
+  "nodes": {
+    "Observe_Female_RLeg_1": {
+      "talker": "주인공",
+      "text": "(마지막으로 오른쪽 다리도 살펴보자.)",
+      "nextNodeID": "Observe_Female_RLeg_2"
+    },
+    "Observe_Female_RLeg_2": {
+      "talker": "떨고 있는 여성",
+      "text": "제발 그만하세요... 우리 아이가 엄마만 기다리고 있다고요... 흑흑...",
+      "nextNodeID": "Observe_Female_RLeg_3"
+    },
+    "Observe_Female_RLeg_3": {
+      "talker": "주인공",
+      "text": "(특별한 이상 징후는 전혀 발견되지 않았다. 아무리 봐도 무고한 시민일 확률이 높아 보이는데...)"
+    }
+  }
+}

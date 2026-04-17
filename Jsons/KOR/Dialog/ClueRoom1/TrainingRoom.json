@@ -1,0 +1,19 @@
+{
+  "startNodeID": "TrainingRoom_1",
+  "nodes": {
+    "TrainingRoom_1": {
+      "talker": "플레이어",
+      "text": "공간룸이다… 시간과 공간이 외부와 단절되어 있다.",
+      "nextNodeID": "TrainingRoom_2"
+    },
+    "TrainingRoom_2": {
+      "talker": "플레이어",
+      "text": "보통은 훈련을 하거나 밀린 작업이 있을 때 들어가는 편이다.",
+      "nextNodeID": "TrainingRoom_3"
+    },
+    "TrainingRoom_3": {
+      "talker": "플레이어",
+      "text": "그런데 어디서 많이 들어본 거 같은데…"
+    }
+  }
+}

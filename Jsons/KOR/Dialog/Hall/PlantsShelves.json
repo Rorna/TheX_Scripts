@@ -1,0 +1,14 @@
+{
+  "startNodeID": "PlantsShelves_1",
+  "nodes": {
+    "PlantsShelves_1": {
+      "talker": "플레이어",
+      "text": "생긴 건 잡초같이 생겼지만, 의외로 먹을 수 있고 맛도 그럭저럭 괜찮다.",
+      "nextNodeID": "PlantsShelves_2"
+    },
+    "PlantsShelves_2": {
+      "talker": "플레이어",
+      "text": "정말 다양한 생물들이 많단 말이지."
+    }
+  }
+}

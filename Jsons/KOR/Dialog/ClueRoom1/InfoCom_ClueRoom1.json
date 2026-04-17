@@ -1,0 +1,21 @@
+{
+  "startNodeID": "InfoCom_Hall_1",
+  "nodes": {
+    "InfoCom_Hall_1": {
+      "talker": "안내 단말기",
+      "text": "[전투 관련 조작법 안내]\n기본적인 이동 조작은 함내에서의 조작과 동일합니다.",
+      "nextNodeID": "InfoCom_Hall_2",
+      "sound": "SFX_Boot"
+    },
+    "InfoCom_Hall_2": {
+      "talker": "안내 단말기",
+      "text": "마우스 왼쪽 버튼으로 대상을 공격할 수 있습니다.",
+      "nextNodeID": "InfoCom_Hall_3"
+    },
+    "InfoCom_Hall_3": {
+      "talker": "안내 단말기",
+      "text": "키보드 [R] 버튼을 입력하여 재장전을 할 수 있습니다.",
+      "sound": "SFX_Shutdown"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "startNodeID": "HologramMachine_1",
+  "nodes": {
+    "HologramMachine_1": {
+      "talker": "プレイヤー",
+      "text": "連絡用のホログラムマシンだ。",
+      "nextNodeID": "HologramMachine_2"
+    },
+    "HologramMachine_2": {
+      "talker": "プレイヤー",
+      "text": "今は使えないようだ。"
+    }
+  }
+}

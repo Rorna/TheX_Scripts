@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Male_Head_1",
+  "nodes": {
+    "Observe_Male_Head_1": {
+      "talker": "주인공",
+      "text": "(머리와 얼굴 쪽을 살펴보자... 창백하게 질려 식은땀을 심하게 흘리고 있군.)",
+      "nextNodeID": "Observe_Male_Head_2"
+    },
+    "Observe_Male_Head_2": {
+      "talker": "겁에 질린 생존자",
+      "text": "어, 얼굴은 왜 그렇게 빤히 보시는 겁니까...? 전 정말 아무 이상 없어요!",
+      "nextNodeID": "Observe_Male_Head_3"
+    },
+    "Observe_Male_Head_3": {
+      "talker": "주인공",
+      "text": "(단서에서 언급된 '푸른 반점' 같은 건 보이지 않는다. 일단 넘어가자.)"
+    }
+  }
+}

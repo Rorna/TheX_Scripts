@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Male_Head_1",
+  "nodes": {
+    "Observe_Male_Head_1": {
+      "talker": "プレイヤー",
+      "text": "（頭と顔の方を調べてみよう… 冷や汗をひどくかいているな。）",
+      "nextNodeID": "Observe_Male_Head_2"
+    },
+    "Observe_Male_Head_2": {
+      "talker": "怯えた生存者",
+      "text": "か、顔をなんでそんなにジロジロ見るんですか…？ 私は本当に何ともないですよ！",
+      "nextNodeID": "Observe_Male_Head_3"
+    },
+    "Observe_Male_Head_3": {
+      "talker": "プレイヤー",
+      "text": "（…一旦次へいこう。）"
+    }
+  }
+}

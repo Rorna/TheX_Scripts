@@ -1,0 +1,14 @@
+{
+  "startNodeID": "SpaceShip_1",
+  "nodes": {
+    "SpaceShip_1": {
+      "talker": "플레이어",
+      "text": "신입 연수 후에 보급받은 개인용 탐사선이다.",
+      "nextNodeID": "SpaceShip_2"
+    },
+    "SpaceShip_2": {
+      "talker": "플레이어",
+      "text": "처음에는 굉장히 떨렸었는데. 이제는 뭐 눈 감고도 다닐 수 있게 되었지."
+    }
+  }
+}

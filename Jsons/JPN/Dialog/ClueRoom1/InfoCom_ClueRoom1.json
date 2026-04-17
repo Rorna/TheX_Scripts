@@ -1,0 +1,52 @@
+{
+  "startNodeID": "Terminal_Main",
+  "nodes": {
+    "Terminal_Main": {
+      "talker": "端末",
+      "text": "現場エージェント支援システムに接続しました。閲覧する情報項目を選択してください。",
+      "choices": [
+        { "text": "手がかり収集ガイド", "targetNodeID": "Info_Clues" },
+        { "text": "手がかり閲覧方法", "targetNodeID": "Info_CheckClues" },
+        { "text": "手がかり予想位置", "targetNodeID": "Info_Locations" },
+        { "text": "「観察」進行ガイド", "targetNodeID": "Info_Observation" },
+        { "text": "接続終了", "targetNodeID": "Terminal_End" }
+      ],
+      "sound": "SFX_Boot"
+    },
+    "Info_Clues": {
+      "talker": "端末",
+      "text": "このエリアには計3つの手がかりが存在します。無実の被害を防ぎ、正確に感染体を判別するために、「観察」をする前に必ず全ての手がかりを収集してください。",
+      "nextNodeID": "Terminal_Main"
+    },
+    "Info_CheckClues": {
+      "talker": "端末",
+      "text": "キーボードの「Q」キーを押すと手がかりリストが画面の右上表示され、獲得した手がかりを確認できます。獲得した手掛かりはアイコンをマウスの「左」クリックして詳細を確認できます。",
+      "nextNodeID": "Info_CheckClues2"
+    },
+    "Info_CheckClues2": {
+      "talker": "端末",
+      "text": "再度[Q]キーを押すか、ポップアップ右上のボタンを押すとリストを閉じることができます。",
+      "nextNodeID": "Terminal_Main"
+    },
+    "Info_Locations": {
+      "talker": "端末",
+      "text": "手がかりは現場の至る所に隠されています。周囲の環境を綿密に探索してください。",
+      "nextNodeID": "Terminal_Main"
+    },
+    "Info_Observation": {
+      "talker": "端末",
+      "text": "現在のエリアは大気汚染のため宇宙服の脱衣が不可能であり、ここでの直接観察は厳しく禁止されています。",
+      "nextNodeID": "Info_Observation2"
+    },
+    "Info_Observation2": {
+      "talker": "端末",
+      "text": "そのため無菌処理が有効化された「観察室」へ移動して観察を行ってください。詳細は観察室内のテレポートマシンをご確認ください。",
+      "nextNodeID": "Terminal_Main"
+    },
+    "Terminal_End": {
+      "talker": "端末",
+      "text": "端末への接続を終了します。エージェントの無事の帰還を祈ります。",
+      "sound": "SFX_Shutdown"
+    }
+  }
+}

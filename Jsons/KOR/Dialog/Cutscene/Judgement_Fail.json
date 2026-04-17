@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Fail_Start",
+  "nodes": {
+    "Fail_Start": {
+      "talker": "관찰 대상",
+      "text": "으악...!! 어, 어째서... 나는... 감염체가 아닌데... 컥...",
+      "nextNodeID": "Fail_Next"
+    },
+    "Fail_Next": {
+      "talker": "주인공",
+      "text": "아... 아니야... 붉은 피잖아... 변이체가 아니었어... 내가 무고한 사람을 쐈단 말인가...!",
+      "nextNodeID": "Fail_System"
+    },
+    "Fail_System": {
+      "talker": "시스템",
+      "text": "경고. 비감염자 오인 사격 발생. 무고한 희생자가 발생했습니다."
+    }
+  }
+}

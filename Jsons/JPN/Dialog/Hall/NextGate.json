@@ -1,0 +1,29 @@
+{
+  "startNodeID": "Door_Interact_1",
+  "nodes": {
+    "Door_Interact_1": {
+      "talker": "プレイヤー",
+      "text": "（この扉を抜けると次の階層の深層エリアに繋がっているようだ。）",
+      "nextNodeID": "Door_Interact_Prompt"
+    },
+    "Door_Interact_Prompt": {
+      "talker": "システム",
+      "text": "次の階層へ移動しますか？（移動後は現在のエリアに戻ることはできません。）",
+      "choices": [
+        { "text": "次の階層へ進む", "targetNodeID": "Action_MoveNextStage" },
+        { "text": "エリアをもう少し見回る", "targetNodeID": "Door_Cancel" }
+      ]
+    },
+    "Action_MoveNextStage": {
+      "text": "",
+      "action": {
+        "actionType": "RunEnding",
+        "targetID": ""
+      }
+    },
+    "Door_Cancel": {
+      "talker": "プレイヤー",
+      "text": "（まだ回収していない手がかりや補給品があるかもしれない。確実に準備を整えてから進もう。）"
+    }
+  }
+}

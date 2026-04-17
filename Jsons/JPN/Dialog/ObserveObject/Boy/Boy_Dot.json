@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Male_Dot_1",
+  "nodes": {
+    "Observe_Male_Dot_1": {
+      "talker": "プレイヤー",
+      "text": "（体の一部に、はっきりと大きな斑点が一つ見える…もしかしてこれか？）",
+      "nextNodeID": "Observe_Male_Dot_2"
+    },
+    "Observe_Male_Dot_2": {
+      "talker": "怯えた生存者",
+      "text": "あ、違います！ 誤解です！ それはただ、子供の頃からある大きな傷跡です！",
+      "nextNodeID": "Observe_Male_Dot_3"
+    },
+    "Observe_Male_Dot_3": {
+      "talker": "プレイヤー",
+      "text": "（確かに古い傷跡による色素沈着のようにも見える。一旦は次へいこう。）"
+    }
+  }
+}

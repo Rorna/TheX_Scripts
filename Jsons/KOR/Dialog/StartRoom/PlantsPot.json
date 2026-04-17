@@ -1,0 +1,14 @@
+{
+  "startNodeID": "PlantsPot_1",
+  "nodes": {
+    "PlantsPot_1": {
+      "talker": "플레이어",
+      "text": "내 고향 지구에서 가져온 식물이다.",
+      "nextNodeID": "PlantsPot_2"
+    },
+    "PlantsPot_2": {
+      "talker": "플레이어",
+      "text": "이름이.. 뭐였더라…? 아무튼, 향은 좋다."
+    }
+  }
+}

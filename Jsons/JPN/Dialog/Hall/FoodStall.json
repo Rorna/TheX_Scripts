@@ -1,0 +1,19 @@
+{
+  "startNodeID": "FoodStall_1",
+  "nodes": {
+    "FoodStall_1": {
+      "talker": "プレイヤー",
+      "text": "屋台だ… これがなぜここにあるかというと、ある偉い人の指示によるものだ。",
+      "nextNodeID": "FoodStall_2"
+    },
+    "FoodStall_2": {
+      "talker": "プレイヤー",
+      "text": "仕事をしながらでも屋台の雰囲気を感じたいからだと…",
+      "nextNodeID": "FoodStall_3"
+    },
+    "FoodStall_3": {
+      "talker": "プレイヤー",
+      "text": "いや、それより匂いはどうするんだよ。"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "startNodeID": "RecycleBin_1",
+  "nodes": {
+    "RecycleBin_1": {
+      "talker": "プレイヤー",
+      "text": "絶対に満杯にならないゴミ箱だ。",
+      "nextNodeID": "RecycleBin_2"
+    },
+    "RecycleBin_2": {
+      "talker": "プレイヤー",
+      "text": "ゴミを入れるとすぐに分解されるからな。",
+      "nextNodeID": "RecycleBin_3"
+    },
+    "RecycleBin_3": {
+      "talker": "プレイヤー",
+      "text": "とても便利だから、自分の部屋にも一つ置きたいくらいだ。"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Alien_RArm_1",
+  "nodes": {
+    "Observe_Alien_RArm_1": {
+      "talker": "주인공",
+      "text": "(오른팔도 꼼꼼히 살펴보자. 소매를 걷어 팔꿈치 주변을 확인해야 한다.)",
+      "nextNodeID": "Observe_Alien_RArm_2"
+    },
+    "Observe_Alien_RArm_2": {
+      "talker": "당황한 외계인",
+      "text": "아프다! 나 진짜 건강하다 삐릭! 우주선 타고 고향 행성 가야 한다...!",
+      "nextNodeID": "Observe_Alien_RArm_3"
+    },
+    "Observe_Alien_RArm_3": {
+      "talker": "주인공",
+      "text": "(이쪽 팔꿈치 역시 깨끗하다. 단서와 일치하는 특이점은 발견되지 않았다.)"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Male_Torso_1",
+  "nodes": {
+    "Observe_Male_Torso_1": {
+      "talker": "プレイヤー",
+      "text": "（胴体部分を「観察」してみよう。息が荒い。）",
+      "nextNodeID": "Observe_Male_Torso_2"
+    },
+    "Observe_Male_Torso_2": {
+      "talker": "怯えた生存者",
+      "text": "ふ、服は脱がせないでください！ お願いです… すごく寒くて怖いんです…",
+      "nextNodeID": "Observe_Male_Torso_3"
+    },
+    "Observe_Male_Torso_3": {
+      "talker": "プレイヤー",
+      "text": "（目立つ痕跡は服の外には見当たらないな。他のところをもう少し調べてみよう。）"
+    }
+  }
+}

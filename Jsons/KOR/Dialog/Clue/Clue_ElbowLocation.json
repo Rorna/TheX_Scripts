@@ -1,0 +1,37 @@
+{
+  "startNodeID": "Clue3_Start",
+  "nodes": {
+    "Clue3_Start": {
+      "talker": "Player",
+      "text": "책이다... 무언가 다급하게 적은 것 같은데...",
+      "nextNodeID": "Clue3_Read"
+    },
+    "Clue3_Read": {
+      "talker": "Warning",
+      "text": "조심해! 놈들은 평범해 보이지만 옷으로 가리고 있을 뿐이야! 특히 '팔꿈치' 부위를 잘 확인해봐야 해!",
+      "nextNodeID": "GetClue_Prompt"
+    },
+    "GetClue_Prompt": {
+      "talker": "Player",
+      "text": "그렇군... 메모해두자...",
+
+      "branchType": "Clue",
+      "branchValue": "C_ElbowLocation",
+      "nextNodeID": "AlreadyGet",
+      "failTargetNodeID": "Action_GetClue"
+    },
+    "Action_GetClue": {
+      "talker": "System",
+      "text": "단서 [팔꿈치 부위의 흔적]을 획득했습니다.",
+      "sound": "SFX_GetClue",
+      "action": {
+        "actionType": "GetClue",
+        "targetID": "C_ElbowLocation"
+      }
+    },
+    "AlreadyGet": {
+      "talker": "Player",
+      "text": "이런, 이 단서는 이미 메모해뒀어."
+    }
+  }
+}

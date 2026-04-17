@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Female_LLeg_1",
+  "nodes": {
+    "Observe_Female_LLeg_1": {
+      "talker": "주인공",
+      "text": "(왼쪽 다리 부위. 극도의 공포에 질려 다리가 꺾일 듯이 떨리고 있다.)",
+      "nextNodeID": "Observe_Female_LLeg_2"
+    },
+    "Observe_Female_LLeg_2": {
+      "talker": "떨고 있는 여성",
+      "text": "다리에 힘이 풀려서 주저앉을 것 같아요... 제발 살려만 주세요...",
+      "nextNodeID": "Observe_Female_LLeg_3"
+    },
+    "Observe_Female_LLeg_3": {
+      "talker": "주인공",
+      "text": "(바지 위로 묻은 먼지 외에는 특별히 '큰 점'이나 변이의 흔적은 보이지 않는다.)"
+    }
+  }
+}

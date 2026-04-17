@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Alien_Head_1",
+  "nodes": {
+    "Observe_Alien_Head_1": {
+      "talker": "주인공",
+      "text": "(얼굴을 살펴보자... 단서에서 말한 '선명한 파란색' 피부를 가지고 있군. 과연 우연일까?)",
+      "nextNodeID": "Observe_Alien_Head_2"
+    },
+    "Observe_Alien_Head_2": {
+      "talker": "당황한 외계인",
+      "text": "삐릭! 우리 종족 원래 피부 파랗다! 병 걸린 거 아니다! 오해하지 마라!",
+      "nextNodeID": "Observe_Alien_Head_3"
+    },
+    "Observe_Alien_Head_3": {
+      "talker": "주인공",
+      "text": "(종족 특성인 것 같군. 감염체 특유의 이질적인 징후나 '큰 점' 형태는 보이지 않는다.)"
+    }
+  }
+}

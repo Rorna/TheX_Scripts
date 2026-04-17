@@ -1,0 +1,87 @@
+{
+  "startNodeID": "Intro",
+  "nodes": {
+    "Intro": {
+      "talker": "단말",
+      "text": "시스템 부팅 완료... 요원 단말기가 활성화되었습니다.",
+      "nextNodeID": "Choices",
+      "sound": "SFX_Boot"
+    },
+    "Choices": {
+      "talker": "단말",
+      "text": "확인할 작전 지침서를 선택하십시오.",
+      "choices": [
+        { "text": "조작법 안내", "targetNodeID": "Guide_Controls1" },
+        { "text": "상호작용 방법", "targetNodeID": "Guide_Interact1" },
+        { "text": "핵심 임무 목표", "targetNodeID": "Guide_Mission1" },
+        { "text": "임무 성공 및 실패 조건", "targetNodeID": "Guide_Result1" },
+        { "text": "시스템 종료", "targetNodeID": "Cancel" }
+      ]
+    },
+
+    "Guide_Controls1": {
+      "talker": "단말",
+      "text": "이동은 키보드 W, A, S, D 혹은 방향키, 점프는 SpaceBar, 시점 조절은 마우스로 진행합니다.",
+      "nextNodeID": "Guide_Controls2"
+    },
+    "Guide_Controls2": {
+      "talker": "단말",
+      "text": "Shift 를 누른채로 이동하면 달리기로 이동할 수 있습니다.",
+      "nextNodeID": "Guide_Controls3"
+    },
+    "Guide_Controls3": {
+      "talker": "단말",
+      "text": "키보드 ESC 버튼을 누르면 게임을 일시정지 할 수 있습니다.",
+      "nextNodeID": "Guide_Controls4"
+    },
+    "Guide_Controls4": {
+      "talker": "단말",
+      "text": "물체와의 상호작용 및 대화는 키보드 'F' 혹은 마우스 오른쪽 버튼으로 진행할 수 있습니다.",
+      "nextNodeID": "Choices"
+    },
+
+    "Guide_Interact1": {
+      "talker": "단말",
+      "text": "주변에 상호작용이 가능한 물체에 다가가면, 대상의 외곽에 하얀 선이 나타나게 됩니다.",
+      "nextNodeID": "Guide_Interact2"
+    },
+    "Guide_Interact2": {
+      "talker": "단말",
+      "text": "하얀 선이 표시된 상태에서 키보드 'F'를 누르면 해당 대상과 상호작용을 시작합니다.",
+      "nextNodeID": "Choices"
+    },
+
+    "Guide_Mission1": {
+      "talker": "단말",
+      "text": "당신의 임무는 구역 내 단서들을 모아 감염 의심자를 주의 깊게 관찰하는 것입니다.",
+      "nextNodeID": "Guide_Mission2"
+    },
+    "Guide_Mission2": {
+      "talker": "단말",
+      "text": "의심자를 판별했다면 특수 탄환을 사용하여 대상을 심판하십시오.",
+      "nextNodeID": "Guide_Mission3"
+    },
+    "Guide_Mission3": {
+      "talker": "단말",
+      "text": "최종적으로 숙주에서 분리된 괴생명체 'X'를 무찌르는 것이 본 작전의 목표입니다.",
+      "nextNodeID": "Choices"
+    },
+
+    "Guide_Result1": {
+      "talker": "단말",
+      "text": "괴생명체 'X'를 성공적으로 처치하면 임무를 완수하게 됩니다.",
+      "nextNodeID": "Guide_Result2"
+    },
+    "Guide_Result2": {
+      "talker": "단말",
+      "text": "그러나 작전 중 지급된 특수 탄환이 모두 다 떨어지면 즉시 임무 실패로 간주되니, 신중하게 관리하십시오.",
+      "nextNodeID": "Choices"
+    },
+
+    "Cancel": {
+      "talker": "단말",
+      "text": "단말기 접속을 종료합니다. 행운을 빕니다.",
+      "sound": "SFX_Shutdown"
+    }
+  }
+}

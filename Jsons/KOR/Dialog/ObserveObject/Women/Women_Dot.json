@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Female_Dot_1",
+  "nodes": {
+    "Observe_Female_Dot_1": {
+      "talker": "주인공",
+      "text": "(목덜미 부근에 제법 큰 반점이 하나 있다... 혹시 감염으로 인한 변이의 징후인가?)",
+      "nextNodeID": "Observe_Female_Dot_2"
+    },
+    "Observe_Female_Dot_2": {
+      "talker": "떨고 있는 여성",
+      "text": "힉! 그, 그건 그냥 태어날 때부터 있던 상처에요...! 제발 저를 괴물 취급하지 마세요...!",
+      "nextNodeID": "Observe_Female_Dot_3"
+    },
+    "Observe_Female_Dot_3": {
+      "talker": "주인공",
+      "text": "(자세히 살펴보니 단순한 상처가 맞다. 질감이 변이체 피부와는 다르고, 감염 징후와는 거리가 멀어 보인다.)"
+    }
+  }
+}

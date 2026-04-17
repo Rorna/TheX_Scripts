@@ -1,0 +1,14 @@
+{
+  "startNodeID": "OxygenGenrator_1",
+  "nodes": {
+    "OxygenGenrator_1": {
+      "talker": "플레이어",
+      "text": "산소 생성 장치이다.",
+      "nextNodeID": "OxygenGenrator_2"
+    },
+    "OxygenGenrator_2": {
+      "talker": "플레이어",
+      "text": "이것 덕분에 인류는 우주로의 진출이 가능해졌지."
+    }
+  }
+}

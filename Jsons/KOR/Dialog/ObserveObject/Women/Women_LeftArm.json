@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Female_LArm_1",
+  "nodes": {
+    "Observe_Female_LArm_1": {
+      "talker": "주인공",
+      "text": "(왼팔이다. 단서 기록에 따르면 '팔꿈치' 부위를 유심히 봐야 해.)",
+      "nextNodeID": "Observe_Female_LArm_2"
+    },
+    "Observe_Female_LArm_2": {
+      "talker": "떨고 있는 여성",
+      "text": "꺄악! 파, 팔은 왜 만지시는 거예요...! 멍든 거 빼곤 아무것도 없어요. 놓아주세요 제발!",
+      "nextNodeID": "Observe_Female_LArm_3"
+    },
+    "Observe_Female_LArm_3": {
+      "talker": "주인공",
+      "text": "(소매를 걷어 확인했지만, 팔꿈치 주변에 감염 특유의 '파란색' 징후는 보이지 않는다.)"
+    }
+  }
+}

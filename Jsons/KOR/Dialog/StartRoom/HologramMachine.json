@@ -1,0 +1,14 @@
+{
+  "startNodeID": "HologramMachine_1",
+  "nodes": {
+    "HologramMachine_1": {
+      "talker": "플레이어",
+      "text": "연락용 홀로그램 머신이다.",
+      "nextNodeID": "HologramMachine_2"
+    },
+    "HologramMachine_2": {
+      "talker": "플레이어",
+      "text": "지금은 사용할 수 없는 것 같다."
+    }
+  }
+}

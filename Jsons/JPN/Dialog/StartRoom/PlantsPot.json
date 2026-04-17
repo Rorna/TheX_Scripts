@@ -1,0 +1,14 @@
+{
+  "startNodeID": "PlantsPot_1",
+  "nodes": {
+    "PlantsPot_1": {
+      "talker": "プレイヤー",
+      "text": "故郷の地球から持ってきた植物だ。",
+      "nextNodeID": "PlantsPot_2"
+    },
+    "PlantsPot_2": {
+      "talker": "プレイヤー",
+      "text": "名前は…何だったかな…？とにかく、いい香りがする。"
+    }
+  }
+}

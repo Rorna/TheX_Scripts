@@ -1,0 +1,14 @@
+{
+  "startNodeID": "HologramMonster_1",
+  "nodes": {
+    "HologramMonster_1": {
+      "talker": "플레이어",
+      "text": "생긴 건 공룡같이 생겼는데, 이 녀석은 지구 밖에서 발견한 녀석이다.",
+      "nextNodeID": "HologramMonster_2"
+    },
+    "HologramMonster_2": {
+      "talker": "플레이어",
+      "text": "공룡과 달리 목 아래에 바로 팔다리가 붙어있단 말이지."
+    }
+  }
+}

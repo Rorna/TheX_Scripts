@@ -1,0 +1,22 @@
+{
+  "startNodeID": "zero",
+  "nodes": {
+    "zero": {
+      "talker": "プレイヤー",
+      "text": "くそっ… もう弾がない…",
+      "nextNodeID": "bullet"
+    },
+    "bullet": {
+      "talker": "プレイヤー",
+      "text": "あいつを止める方法がなくなった…",
+      "nextNodeID": "Action_GameOver"
+    },
+    "Action_GameOver": {
+      "text": "",
+      "action": {
+        "actionType": "GameOver",
+        "targetID": ""
+      }
+    }
+  }
+}

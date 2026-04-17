@@ -1,0 +1,76 @@
+{
+  "startNodeID": "SaveAndLoad",
+  "nodes":
+  {
+    "SaveAndLoad":
+    {
+        "text": "시스템 가동, 데이터를 저장 및 로드하는 장치입니다.",
+        "nextNodeID": "SelectFunc",
+        "sound": "SFX_Boot"
+    },
+    "SelectFunc":
+    {
+      "text": "원하시는 기능을 선택하세요.",
+      "choices": 
+      [
+        { "text": "Save", "targetNodeID": "Ask_Save" },
+        { 
+          "text": "Load", 
+          "branchType": "Save",
+          "targetNodeID": "Action_Load", 
+          "failTargetNodeID": "NoLoadData"
+        },
+        { "text": "Cancel", "targetNodeID": "Cancel" }
+      ]
+    },
+    "NoLoadData":
+    {
+      "text": "저장된 데이터가 없습니다!!!",
+      "nextNodeID": "SelectFunc"
+    },
+    "Ask_Save":
+    {
+        "text": "세이브 하시겠습니까?",
+        "choices":
+        [
+            { "text": "응", "targetNodeID": "Action_Save" },
+            { "text": "아니", "targetNodeID": "SelectFunc" }
+        ]
+    },
+    "Ask_Load":
+    {
+        "text": "로드 하시겠습니까?",
+        "choices":
+        [
+            { "text": "응", "targetNodeID": "Action_Load" },
+            { "text": "아니", "targetNodeID": "SelectFunc" }
+        ]
+    },
+    "Action_Save":
+    {
+      "text": "현재 상황을 저장하였습니다.",
+      "action":
+      {
+        "actionType": "RunSave",
+        "targetID": ""
+      },
+      "sound":"SFX_Save"
+    },
+    "Action_Load":
+    {
+      "text": "",
+      "action":
+      {
+        "actionType": "RunLoad",
+        "targetID": "",
+        "sound":"SFX_Load"
+      }
+    },
+    "Cancel":
+    {
+      "text": "시스템 종료. 장비를 정지합니다.",
+      "sound": "SFX_Shutdown"
+    }
+  }
+}
+

@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Female_Head_1",
+  "nodes": {
+    "Observe_Female_Head_1": {
+      "talker": "주인공",
+      "text": "(얼굴을 살펴보자... 눈물로 범벅이 된 채 극도로 겁에 질려 있다.)",
+      "nextNodeID": "Observe_Female_Head_2"
+    },
+    "Observe_Female_Head_2": {
+      "talker": "떨고 있는 여성",
+      "text": "제, 제발 얼굴은 쏘지 마세요... 집에 혼자 있는 아이가 절 못 알아보면 어떡해요...",
+      "nextNodeID": "Observe_Female_Head_3"
+    },
+    "Observe_Female_Head_3": {
+      "talker": "주인공",
+      "text": "(단서에서 말한 '푸른 반점'이나 이상 징후는 보이지 않는다. 피부는 깨끗하다.)"
+    }
+  }
+}

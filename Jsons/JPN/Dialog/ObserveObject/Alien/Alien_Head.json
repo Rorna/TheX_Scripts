@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Alien_Head_1",
+  "nodes": {
+    "Observe_Alien_Head_1": {
+      "talker": "プレイヤー",
+      "text": "（顔を調べてみよう… ）",
+      "nextNodeID": "Observe_Alien_Head_2"
+    },
+    "Observe_Alien_Head_2": {
+      "talker": "困惑した宇宙人",
+      "text": "ピリリ！我々の種族は元々皮膚が緑色なんだ！病気にかかったわけじゃない！誤解しないでくれ！",
+      "nextNodeID": "Observe_Alien_Head_3"
+    },
+    "Observe_Alien_Head_3": {
+      "talker": "プレイヤー",
+      "text": "（そうは言っているが…）"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "startNodeID": "here",
+  "nodes":
+  {
+    "here":
+    {
+        "talker": "에이미",
+        "text": "저기 기계 보이지?",
+        "nextNodeID": "saveMachine"
+    },
+    "saveMachine":
+    {
+        "talker": "에이미",
+        "text": "저기서 세이브나 로드를 할 수 있어.",
+        "nextNodeID": "player"
+    },
+    "player":
+    {
+        "talker": "플레이어",
+        "text": "오...그렇구만...",
+        "nextNodeID": "try"
+    },
+    "try":
+    {
+      "talker": "에이미",
+      "text": "시험 삼아 한 번 작동시켜봐."
+    }
+  }
+}

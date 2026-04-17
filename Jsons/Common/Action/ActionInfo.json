@@ -1,0 +1,18 @@
+{
+  "actionInfo":
+  [
+    "GetClue",
+    "GetQuest",
+    "GetItem",
+    "MoveScene",
+    "PlayCutScene",
+    "RunDialog",
+    "RunJudgement",
+    "RunSave",
+    "RunLoad",
+    "GameOver",
+    "ShowNotify",
+    "RunEnding",
+    "Delete"
+  ]
+}

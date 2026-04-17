@@ -1,0 +1,9 @@
+{
+  "startNodeID": "Lockers_1",
+  "nodes": {
+    "Lockers_1": {
+      "talker": "플레이어",
+      "text": "선원들의 개인용 로커다."
+    }
+  }
+}

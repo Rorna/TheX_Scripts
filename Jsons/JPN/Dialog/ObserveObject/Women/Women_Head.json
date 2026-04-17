@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Female_Head_1",
+  "nodes": {
+    "Observe_Female_Head_1": {
+      "talker": "プレイヤー",
+      "text": "（顔を調べてみよう…）",
+      "nextNodeID": "Observe_Female_Head_2"
+    },
+    "Observe_Female_Head_2": {
+      "talker": "震えている女性",
+      "text": "お、お願いですから顔は撃たないでください…",
+      "nextNodeID": "Observe_Female_Head_3"
+    },
+    "Observe_Female_Head_3": {
+      "talker": "プレイヤー",
+      "text": "（これか…？）"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Alien_LLeg_1",
+  "nodes": {
+    "Observe_Alien_LLeg_1": {
+      "talker": "주인공",
+      "text": "(왼쪽 다리 부위. 겁을 잔뜩 먹었는지 다리를 심하게 떨고 있군.)",
+      "nextNodeID": "Observe_Alien_LLeg_2"
+    },
+    "Observe_Alien_LLeg_2": {
+      "talker": "당황한 외계인",
+      "text": "삐릭... 다리 그만 봐라... 나 인간들 총 너무 무섭다...",
+      "nextNodeID": "Observe_Alien_LLeg_3"
+    },
+    "Observe_Alien_LLeg_3": {
+      "talker": "주인공",
+      "text": "(피부가 파란색일 뿐, 그 외에 감염체로 의심될 만한 흉터나 '큰 점'은 없다.)"
+    }
+  }
+}

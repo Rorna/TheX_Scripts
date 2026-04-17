@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Alien_RArm_1",
+  "nodes": {
+    "Observe_Alien_RArm_1": {
+      "talker": "プレイヤー",
+      "text": "（右腕も念入りに調べてみよう。袖をまくって肘の周辺を確認しなければ。）",
+      "nextNodeID": "Observe_Alien_RArm_2"
+    },
+    "Observe_Alien_RArm_2": {
+      "talker": "困惑した宇宙人",
+      "text": "痛いピリリ！私本当に健康だピリリ！宇宙船に乗って故郷の星に帰らなきゃいけないんだ…！",
+      "nextNodeID": "Observe_Alien_RArm_3"
+    },
+    "Observe_Alien_RArm_3": {
+      "talker": "プレイヤー",
+      "text": "（こっちの肘も綺麗だな。特異点は見当たらない。）"
+    }
+  }
+}

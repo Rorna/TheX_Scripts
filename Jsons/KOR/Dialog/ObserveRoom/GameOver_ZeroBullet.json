@@ -1,0 +1,28 @@
+{
+  "startNodeID": "zero",
+  "nodes":
+  {
+    "zero":
+    {
+      "talker": "플레이어",
+      "text": "씨발... 이제 탄환이 더 이상 없군...",
+      "nextNodeID": "bullet"
+    },
+    "bullet":
+    {
+      "talker": "플레이어",
+      "text": "이제 저 녀석을 막을 방법이 없게 되버렸어...",
+      "nextNodeID": "Action_GameOver"
+    },
+    "Action_GameOver":
+    {
+      "text": "",
+      "action":
+      {
+        "actionType": "GameOver",
+        "targetID": ""
+      }
+    }
+  }
+}
+

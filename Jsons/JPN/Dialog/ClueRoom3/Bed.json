@@ -1,0 +1,14 @@
+{
+  "startNodeID": "Bed_1",
+  "nodes": {
+    "Bed_1": {
+      "talker": "プレイヤー",
+      "text": "ベッドがある。",
+      "nextNodeID": "Bed_2"
+    },
+    "Bed_2": {
+      "talker": "プレイヤー",
+      "text": "特に変わったところはないようだ。"
+    }
+  }
+}

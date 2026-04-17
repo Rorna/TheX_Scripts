@@ -1,0 +1,29 @@
+{
+  "startNodeID": "Clue_Complete_1",
+  "nodes": {
+    "Clue_Complete_1": {
+      "talker": "에이미",
+      "text": "수고했어! 구역에 숨겨져 있던 3개의 단서를 모두 확보했구나.",
+      "nextNodeID": "Clue_Complete_2"
+    },
+    "Clue_Complete_2": {
+      "talker": "에이미",
+      "text": "이 정보들이면 억울한 희생자 없이, 누가 무증상 감염자인지 확실하게 판별해낼 수 있을 거야.",
+      "nextNodeID": "Clue_Complete_3"
+    },
+    "Clue_Complete_3": {
+      "talker": "에이미",
+      "text": "아까 단말기 기록에서 봤겠지만, 이 구역은 대기 오염이 심해서 야외에선 우주복을 벗을 수 없어.",
+      "nextNodeID": "Clue_Complete_4"
+    },
+    "Clue_Complete_4": {
+      "talker": "에이미",
+      "text": "하지만 걱정마. 무균 처리가 된 '관찰실'에 모여있으니까, 그곳에서 관찰하면 될거야. \n자, 이제 본격적으로 '관찰'을 하러 가보자!",
+      "action":
+      {
+        "actionType": "GetQuest",
+        "targetID": "Q_KillTheX"
+      }
+    }
+  }
+}

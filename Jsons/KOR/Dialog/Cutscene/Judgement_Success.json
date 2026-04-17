@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Success_Start",
+  "nodes": {
+    "Success_Start": {
+      "talker": "관찰 대상",
+      "text": "크아아악...!! 기, 기어코... 나를...",
+      "nextNodeID": "Success_Monster"
+    },
+    "Success_Monster": {
+      "talker": "변이체 X",
+      "text": "후후후후... 결국 들켰군! 그렇다면 여기서 널 찢어 죽여주마!!",
+      "nextNodeID": "Success_Amy"
+    },
+    "Success_Amy": {
+      "talker": "에이미",
+      "text": "조심해!! 숙주에서 변이체 X가 완전히 분리됐어! 당장 너에게 달려든다!!"
+    }
+  }
+}

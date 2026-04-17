@@ -1,0 +1,19 @@
+{
+  "startNodeID": "MonsterTube_1",
+  "nodes": {
+    "MonsterTube_1": {
+      "talker": "플레이어",
+      "text": "무언가 담긴 크리스탈이다.",
+      "nextNodeID": "MonsterTube_2"
+    },
+    "MonsterTube_2": {
+      "talker": "플레이어",
+      "text": "이상한 소리를 내면서 꿈틀거린다…",
+      "nextNodeID": "MonsterTube_3"
+    },
+    "MonsterTube_3": {
+      "talker": "플레이어",
+      "text": "가까이 가지 말자…"
+    }
+  }
+}

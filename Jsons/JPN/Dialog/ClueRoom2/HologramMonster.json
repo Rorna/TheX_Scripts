@@ -1,0 +1,14 @@
+{
+  "startNodeID": "HologramMonster_1",
+  "nodes": {
+    "HologramMonster_1": {
+      "talker": "プレイヤー",
+      "text": "見た目は恐竜のようだが、こいつは地球じゃなく、とある惑星から発見された奴だ。",
+      "nextNodeID": "HologramMonster_2"
+    },
+    "HologramMonster_2": {
+      "talker": "プレイヤー",
+      "text": "恐竜と違って、首の下に胴もなくてすぐ手足が付いている。"
+    }
+  }
+}

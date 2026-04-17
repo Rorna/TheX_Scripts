@@ -1,0 +1,14 @@
+{
+  "startNodeID": "MedicalCharger_1",
+  "nodes": {
+    "MedicalCharger_1": {
+      "talker": "プレイヤー",
+      "text": "傷の治療マシンだ。急速なスピードで傷の再生を促進させる。",
+      "nextNodeID": "MedicalCharger_2"
+    },
+    "MedicalCharger_2": {
+      "talker": "プレイヤー",
+      "text": "どんな仕組みなんだろうな…"
+    }
+  }
+}

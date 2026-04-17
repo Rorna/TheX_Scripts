@@ -1,0 +1,30 @@
+{
+  "startNodeID": "Judgement_Start",
+  "nodes": {
+    "Judgement_Start": {
+      "talker": "プレイヤー",
+      "text": "（すべての観察を終えた。これで誰が感染体で、誰が無実の生存者かわかるな…）",
+      "nextNodeID": "Judgement_Prompt"
+    },
+    "Judgement_Prompt": {
+      "talker": "システム",
+      "text": "現在の対象に向けて特殊弾を発射し、「審判」を執行しますか？（警告：誤判定の場合、対象は即死します）",
+      "choices": [
+        { "text": "「執行」する（発射）", "targetNodeID": "Judgement_Execute" },
+        { "text": "やめる", "targetNodeID": "Judgement_Cancel" }
+      ]
+    },
+    "Judgement_Execute": {
+      "talker": "プレイヤー",
+      "text": "",
+      "action": {
+        "actionType": "RunJudgement",
+        "targetID": "Astronaut_Alien"
+      }
+    },
+    "Judgement_Cancel": {
+      "talker": "プレイヤー",
+      "text": "（いや、まだ確信できない。誤った判断は取り返しがつかないから、もう少し慎重にならなければ。）"
+    }
+  }
+}

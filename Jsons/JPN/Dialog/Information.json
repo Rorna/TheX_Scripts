@@ -1,0 +1,147 @@
+{
+  "startNodeID": "Information",
+  "nodes": {
+    "Information": {
+      "text": "コンピューターがある…",
+      "nextNodeID": "Many"
+    },
+    "Many": {
+      "text": "色々なことが調べられそうだ… 何を調べようか？",
+      "nextNodeID": "Choices"
+    },
+    "Choices": {
+      "text": "検索する項目を選択してください。",
+      "choices": [
+        { "text": "任務について", "targetNodeID": "About_Mission1" },
+        { "text": "感染者について", "targetNodeID": "About_X1" },
+        { "text": "特殊弾について", "targetNodeID": "About_Bullet1" },
+        { "text": "手がかりについて", "targetNodeID": "About_Clue1" },
+        { "text": "観察について", "targetNodeID": "About_Observe1" },
+        { "text": "審判について", "targetNodeID": "About_Judgment1" },
+        { "text": "戦闘について", "targetNodeID": "About_Combat1" },
+        { "text": "セーブについて", "targetNodeID": "About_Save1" },
+        { "text": "やめる", "targetNodeID": "Cancel" }
+      ]
+    },
+
+    "About_Mission1": {
+      "text": "あなたの任務はエリア内の手がかりを探し、それを元に感染者を見つけ出して排除することだ。",
+      "nextNodeID": "About_Mission2"
+    },
+    "About_Mission2": {
+      "text": "特殊弾が尽きると任務失敗となる。",
+      "nextNodeID": "Choices"
+    },
+
+    "About_X1": {
+      "text": "感染者は一見すると非感染者と同じように見える。",
+      "nextNodeID": "About_X2"
+    },
+    "About_X2": {
+      "text": "しかし、よく見ると非感染者とは異なる部分がある。",
+      "nextNodeID": "About_X3"
+    },
+    "About_X3": {
+      "text": "その異なる部分に関する手がかりはエリアの至る所にあり、あなたは手がかりを集めて感染者を見分けなければならない。",
+      "nextNodeID": "Choices"
+    },
+
+    "About_Bullet1": {
+      "text": "感染者は特殊弾でのみ排除できる。",
+      "nextNodeID": "About_Bullet2"
+    },
+    "About_Bullet2": {
+      "text": "特殊弾は全部で3発のみであり、すべて使い果たすとあなたは感染者に殺されてしまうだろう。",
+      "nextNodeID": "About_Bullet3"
+    },
+    "About_Bullet3": {
+      "text": "そのため、慎重に使用しなければならない。",
+      "nextNodeID": "Choices"
+    },
+
+    "About_Clue1": {
+      "text": "エリア内の手がかりは合計3つだ。",
+      "nextNodeID": "About_Clue2"
+    },
+    "About_Clue2": {
+      "text": "獲得した手がかりはキーボードの「Q」を押すと移動が制限され、画面右上に手がかりのリストが表示される。また、マウスが有効になる。",
+      "nextNodeID": "About_Clue3"
+    },
+    "About_Clue3": {
+      "text": "マウスの左ボタンで獲得した手がかりをクリックすると、手がかりの説明が書かれたポップアップが開く。",
+      "nextNodeID": "About_Clue4"
+    },
+    "About_Clue4": {
+      "text": "ポップアップは右上のボタンを押すと閉じることができる。",
+      "nextNodeID": "About_Clue5"
+    },
+    "About_Clue5": {
+      "text": "手がかりリストが有効な状態で再度キーボードの「Q」を押すと無効になる。",
+      "nextNodeID": "Choices"
+    },
+
+    "About_Observe1": {
+      "text": "観察は、対象が感染者であった場合に即座に射殺できるよう、隔離された特殊な部屋で行われる。",
+      "nextNodeID": "About_Observe2"
+    },
+    "About_Observe2": {
+      "text": "特殊な部屋には帰還装置が配置されており、いつでも戻ることができる。",
+      "nextNodeID": "About_Observe3"
+    },
+    "About_Observe3": {
+      "text": "対象を見ると右上には手がかりリスト、左下には「観察」と「審判」が有効になる。",
+      "nextNodeID": "About_Observe4"
+    },
+    "About_Observe4": {
+      "text": "キーボードの「Tab」を押すと観察モードが有効になり、移動が制限されてマウスが有効になる。",
+      "nextNodeID": "About_Observe5"
+    },
+    "About_Observe5": {
+      "text": "マウスで観察対象を指すと輪郭が青く光り、この時に相互作用キー「F」を押すと観察部位に関する説明を確認できる。",
+      "nextNodeID": "About_Observe6"
+    },
+    "About_Observe6": {
+      "text": "マウスホイールを使って拡大および縮小ができる。",
+      "nextNodeID": "About_Observe7"
+    },
+    "About_Observe7": {
+      "text": "拡大した状態で観察モードを終了すると元の視点に戻る。",
+      "nextNodeID": "Choices"
+    },
+
+    "About_Judgment1": {
+      "text": "観察の結果、感染者であることが確実になった場合、「審判」を通じて感染者を処断することができる。",
+      "nextNodeID": "About_Judgment2"
+    },
+    "About_Judgment2": {
+      "text": "この時、特殊弾が使用され、使用された弾は戻ってこない。",
+      "nextNodeID": "About_Judgment3"
+    },
+    "About_Judgment3": {
+      "text": "観察対象が感染者であった場合、感染者は本来の姿に変異し、戦闘が始まる。",
+      "nextNodeID": "About_Judgment4"
+    },
+    "About_Judgment4": {
+      "text": "観察対象が非感染者であった場合、観察対象は死亡することになる。",
+      "nextNodeID": "Choices"
+    },
+
+    "About_Combat1": {
+      "text": "マウスの左ボタンを押して攻撃できる。",
+      "nextNodeID": "Choices"
+    },
+
+    "About_Save1": {
+      "text": "セーブをすることができる。",
+      "nextNodeID": "About_Save2"
+    },
+    "About_Save2": {
+      "text": "セーブ装置と相互作用すると、ロードとセーブができる。",
+      "nextNodeID": "Choices"
+    },
+
+    "Cancel": {
+      "text": "コンピューターの使用を終了します。"
+    }
+  }
+}

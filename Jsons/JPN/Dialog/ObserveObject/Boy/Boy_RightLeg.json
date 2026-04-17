@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Male_RLeg_1",
+  "nodes": {
+    "Observe_Male_RLeg_1": {
+      "talker": "プレイヤー",
+      "text": "（右脚も調べてみよう。）",
+      "nextNodeID": "Observe_Male_RLeg_2"
+    },
+    "Observe_Male_RLeg_2": {
+      "talker": "怯えた生存者",
+      "text": "そんなに隅々まで探っても、何も出ませんよ！ 私は健康なんです！",
+      "nextNodeID": "Observe_Male_RLeg_3"
+    },
+    "Observe_Male_RLeg_3": {
+      "talker": "プレイヤー",
+      "text": "（特別な異常の兆候は見当たらない。）"
+    }
+  }
+}

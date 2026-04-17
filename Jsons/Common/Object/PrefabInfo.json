@@ -1,0 +1,90 @@
+{
+  "objectInfo": 
+  {
+    "Player":
+    {
+      "path": "Player/Player"
+    },
+    "DeskObj": 
+    {
+      "path": "SceneObject/DeskObj"
+    },
+    "SaveMachine": 
+    {
+      "path": "ImportedPrefab/SaveMachine"
+    },
+
+
+    "Astronaut":
+    {
+      "path": "ImportedPrefab/Astronaut"
+    },
+    "Astronaut_Alien":
+    {
+      "path": "ImportedPrefab/Astronaut_Alien"
+    },
+    "Astronaut_Boy":
+    {
+      "path": "ImportedPrefab/Astronaut_Boy"
+    },
+    "Astronaut_Women":
+    {
+      "path": "ImportedPrefab/Astronaut_Women"
+    },
+
+
+    "Astronaut_Alien_Observe":
+    {
+      "path": "ImportedPrefab/Astronaut_Alien_Observe"
+    },
+    "Astronaut_Boy_Observe":
+    {
+      "path": "ImportedPrefab/Astronaut_Boy_Observe"
+    },
+    "Astronaut_Women_Observe":
+    {
+      "path": "ImportedPrefab/Astronaut_Women_Observe"
+    },
+    "TheX":
+    {
+      "path": "ImportedPrefab/TheX"
+    },
+
+
+    "Clue_BigSpotRoot":
+    {
+      "path": "ImportedPrefab/Clue_BigSpotRoot"
+    },
+    "Clue_BlueColorRoot":
+    {
+      "path": "ImportedPrefab/Clue_BlueColorRoot"
+    },
+    "Clue_ElbowLocationRoot":
+    {
+      "path": "ImportedPrefab/Clue_ElbowLocationRoot"
+    },
+    
+    "TeleportMachine":
+    {
+      "path": "ImportedPrefab/TeleportMachine"
+    },
+
+    
+    "Corridor_SaveCutsceneTriggerObj":
+    {
+      "path": "Trigger/Corridor_SaveCutsceneTriggerObj"
+    },
+    "Hall_TriggerGateCutscene":
+    {
+      "path": "Trigger/Hall_TriggerGateCutscene"
+    },
+    "Hall_TriggerNextGate":
+    {
+      "path": "Trigger/Hall_TriggerNextGate"
+    },
+    "StartRoom_TriggerInteraction":
+    {
+      "path": "Trigger/StartRoom_TriggerInteraction"
+    }
+  }
+}

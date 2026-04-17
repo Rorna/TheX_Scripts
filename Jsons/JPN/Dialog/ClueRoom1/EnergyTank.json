@@ -1,0 +1,9 @@
+{
+  "startNodeID": "EnergyTank_1",
+  "nodes": {
+    "EnergyTank_1": {
+      "talker": "プレイヤー",
+      "text": "様々な場所で使われるエネルギータンクだ。"
+    }
+  }
+}

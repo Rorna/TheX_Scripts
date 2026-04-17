@@ -1,0 +1,9 @@
+{
+  "startNodeID": "BigBox_1",
+  "nodes": {
+    "BigBox_1": {
+      "talker": "プレイヤー",
+      "text": "正体不明の大きな箱だ。"
+    }
+  }
+}

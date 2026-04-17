@@ -1,0 +1,14 @@
+{
+  "startNodeID": "Toilet_1",
+  "nodes": {
+    "Toilet_1": {
+      "talker": "プレイヤー",
+      "text": "トイレだ…",
+      "nextNodeID": "Toilet_2"
+    },
+    "Toilet_2": {
+      "talker": "プレイヤー",
+      "text": "なんでこれがここにあるんだろう…"
+    }
+  }
+}

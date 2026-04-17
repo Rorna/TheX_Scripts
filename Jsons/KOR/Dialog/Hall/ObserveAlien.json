@@ -1,0 +1,66 @@
+{
+  "startNodeID": "StartBranch",
+  "nodes": {
+    "StartBranch":
+    {
+      "talker": "당황한 외계인",
+      "text": "삐리릭...!",
+      
+      "branchType": "Quest",
+      "branchValue": "Q_KillTheX",
+      "nextNodeID": "AllEnd",
+      "failTargetNodeID": "NPC_Alien_Start"
+    },
+    "AllEnd":
+    {
+      "talker": "당황한 외계인",
+      "text": "다행이에요...!"
+    },
+
+    "NPC_Alien_Start": {
+      "talker": "당황한 외계인",
+      "text": "삐리릭...! 인간 요원! 무기 거둬라! 나, 기생체 아니다! 우리 종족, 그런 병 안 걸린다!",
+      
+      "branchType": "Quest",
+      "branchValue": "Q_CollectAllClue",
+      "nextNodeID": "NPC_CanObserve",
+      "failTargetNodeID": "NPC_CannotObserve"
+    },
+    "NPC_CannotObserve": {
+      "talker": "주인공",
+      "text": "(아직 이 외계 종족의 감염 여부를 확실히 판별할 단서가 부족하다. 오판을 막기 위해 단서부터 마저 찾아야 해.)",
+      "choices": [
+        { "text": "총을 내린다. (물러난다)", "targetNodeID": "NPC_End" }
+      ]
+    },
+    "NPC_CanObserve": {
+      "talker": "당황한 외계인",
+      "text": "내 피부 원래 파랗다! 반점 아니다...! 제발 나를 쏘지 마라! 살려달라 삐릭...!",
+      "choices": [
+        { "text": "[관찰] 대상을 유심히 살펴본다", "targetNodeID": "NPC_ReadyToObserve" },
+        { "text": "우선 물러난다", "targetNodeID": "NPC_End" }
+      ]
+    },
+    "NPC_ReadyToObserve": {
+      "talker": "주인공",
+      "text": "(단서들이 모두 모였어. 이 외계인의 몸에 감염 징후가 있는지 확인해 보자...)",
+      "nextNodeID": "NPC_ReadyToObserve1"
+    },
+    "NPC_ReadyToObserve1": {
+      "talker": "Player",
+      "text": "지금부터 관찰실로 이동하겠습니다. 관찰실에서는 환복후 양팔을 벌린채로 대기해주십시오.",
+      "nextNodeID": "Action_Observe"
+    },
+    "Action_Observe": {
+      "text": "",
+      "action": {
+        "actionType": "MoveScene",
+        "targetID": "ObserveScene"
+      }
+    },
+    "NPC_End": {
+      "talker": "당황한 외계인",
+      "text": "삐릭... 인간들 총 너무 무섭다... 우리는 평화를 원한다..."
+    }
+  }
+}

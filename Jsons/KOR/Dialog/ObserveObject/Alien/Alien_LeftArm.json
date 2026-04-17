@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Alien_LArm_1",
+  "nodes": {
+    "Observe_Alien_LArm_1": {
+      "talker": "주인공",
+      "text": "(왼팔이다. 단서에 따르면 평범해 보여도 반드시 '팔꿈치'를 확인해야 해.)",
+      "nextNodeID": "Observe_Alien_LArm_2"
+    },
+    "Observe_Alien_LArm_2": {
+      "talker": "당황한 외계인",
+      "text": "삐리릭! 내 팔 왜 억지로 꺾나! 관절 다친다 삐릭!",
+      "nextNodeID": "Observe_Alien_LArm_3"
+    },
+    "Observe_Alien_LArm_3": {
+      "talker": "주인공",
+      "text": "(관절 구조가 인간과 약간 다르긴 하지만, 팔꿈치 부근에 감염이나 변이의 흔적은 없다.)"
+    }
+  }
+}

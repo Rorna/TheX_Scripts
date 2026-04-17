@@ -1,0 +1,317 @@
+{
+    "SoundInfo": {
+        "BGM_Test": {
+            "Path": "Sounds/SoundSamples/BGM_Test",
+            "SoundType": "BGM",
+            "Loop": true,
+            "DefaultVolume": 0.9,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_wompwomp": {
+            "Path": "Sounds/SoundS/SFX_wompwomp",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_SaveMachineOn": {
+            "Path": "Sounds/Object/SFX_SaveMachineOn",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_SaveMachineOff": {
+            "Path": "Sounds/Object/SFX_SaveMachineOff",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_SaveMachineSaved": {
+            "Path": "Sounds/Object/SFX_SaveMachineSaved",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_PlayerFootstep": {
+            "Path": "Sounds/SFX/SFX_PlayerFootstep",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+
+
+
+        "SFX_Boot": {
+            "Path": "Sounds/SFX/SFX_Boot",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_Shutdown": {
+            "Path": "Sounds/SFX/SFX_Shutdown",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_Save": {
+            "Path": "Sounds/SFX/SFX_Save",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_Load": {
+            "Path": "Sounds/SFX/SFX_Load",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+
+
+
+        "SFX_GetClue": {
+            "Path": "Sounds/SFX/SFX_GetClue",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_CluePopup": {
+            "Path": "Sounds/SFX/SFX_CluePopup",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_Click": {
+            "Path": "Sounds/SFX/SFX_Click",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_Warp": {
+            "Path": "Sounds/SFX/SFX_Warp",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_ShootSound": {
+            "Path": "Sounds/SFX/SFX_ShootSound",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 1.0,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_Shockwave1": {
+            "Path": "Sounds/SFX/SFX_Shockwave1",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_ShockWave": {
+            "Path": "Sounds/SFX/SFX_ShockWave",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_ScifiHurt": {
+            "Path": "Sounds/SFX/SFX_ScifiHurt",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_RushAttack": {
+            "Path": "Sounds/SFX/SFX_RushAttack",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_PlayerShot": {
+            "Path": "Sounds/SFX/SFX_PlayerShot",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_Jump": {
+            "Path": "Sounds/SFX/SFX_Jump",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_Hurt": {
+            "Path": "Sounds/SFX/SFX_Hurt",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_GunReload": {
+            "Path": "Sounds/SFX/SFX_GunReload",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_Explode": {
+            "Path": "Sounds/SFX/SFX_Explode",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 1.0,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_DefaultGunShoot": {
+            "Path": "Sounds/SFX/SFX_DefaultGunShoot",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_Damage": {
+            "Path": "Sounds/SFX/SFX_Damage",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_SummonEnemy":
+        {
+            "Path": "Sounds/SFX/SFX_SummonEnemy",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_ObservationModeOn":
+        {
+            "Path": "Sounds/SFX/SFX_ObservationModeOn",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_ObservationModeOff":
+        {
+            "Path": "Sounds/SFX/SFX_ObservationModeOff",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_UISound":
+        {
+            "Path": "Sounds/SFX/SFX_UISound",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_ClearQuest":
+        {
+            "Path": "Sounds/SFX/SFX_ClearQuest",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_CutsceneShoot":
+        {
+            "Path": "Sounds/SFX/SFX_CutsceneShoot",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_EnemyDead":
+        {
+            "Path": "Sounds/SFX/SFX_EnemyDead",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_GameOver":
+        {
+            "Path": "Sounds/SFX/SFX_GameOver",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "SFX_RadioSound":
+        {
+            "Path": "Sounds/SFX/SFX_RadioSound",
+            "SoundType": "SFX",
+            "Loop": false,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+
+
+
+
+        "BGM_Stage1": {
+            "Path": "Sounds/BGM/BGM_Stage1",
+            "SoundType": "BGM",
+            "Loop": true,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "BGM_Observe": {
+            "Path": "Sounds/BGM/BGM_Observe",
+            "SoundType": "BGM",
+            "Loop": true,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "BGM_Judgement1": {
+            "Path": "Sounds/BGM/BGM_Judgement1",
+            "SoundType": "BGM",
+            "Loop": true,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "BGM_Judgement": {
+            "Path": "Sounds/BGM/BGM_Judgement",
+            "SoundType": "BGM",
+            "Loop": true,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "BGM_Combat1": {
+            "Path": "Sounds/BGM/BGM_Combat1",
+            "SoundType": "BGM",
+            "Loop": true,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "BGM_Combat": {
+            "Path": "Sounds/BGM/BGM_Combat",
+            "SoundType": "BGM",
+            "Loop": true,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        },
+        "BGM_MainMenu": {
+            "Path": "Sounds/BGM/BGM_MainMenu",
+            "SoundType": "BGM",
+            "Loop": true,
+            "DefaultVolume": 0.7,
+            "SpatialBlendRatio": 0
+        }
+    }
+}

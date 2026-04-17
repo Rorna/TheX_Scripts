@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Alien_RLeg_1",
+  "nodes": {
+    "Observe_Alien_RLeg_1": {
+      "talker": "주인공",
+      "text": "(마지막으로 오른쪽 다리도 마저 살펴보자.)",
+      "nextNodeID": "Observe_Alien_RLeg_2"
+    },
+    "Observe_Alien_RLeg_2": {
+      "talker": "당황한 외계인",
+      "text": "제발 나 심판하지 마라... 나 나쁜 외계인 아니다 삐릭...",
+      "nextNodeID": "Observe_Alien_RLeg_3"
+    },
+    "Observe_Alien_RLeg_3": {
+      "talker": "주인공",
+      "text": "(특별한 이상은 없다. 원래 피부색 때문에 오해하기 쉽지만 무고한 생존자인 것 같다.)"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "startNodeID": "Oven_1",
+  "nodes": {
+    "Oven_1": {
+      "talker": "플레이어",
+      "text": "오븐이 있다…",
+      "nextNodeID": "Oven_2"
+    },
+    "Oven_2": {
+      "talker": "플레이어",
+      "text": "월요일을 세상에서 제일 좋아하는 노란색 녀석이 아끼는 물건이다."
+    }
+  }
+}

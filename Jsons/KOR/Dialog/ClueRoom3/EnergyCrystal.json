@@ -1,0 +1,9 @@
+{
+  "startNodeID": "EnergyCrystal_1",
+  "nodes": {
+    "EnergyCrystal_1": {
+      "talker": "플레이어",
+      "text": "우주선에 사용되는 에너지 크리스탈이다."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "startNodeID": "wait",
+  "nodes": {
+    "wait": {
+      "talker": "エイミー",
+      "text": "待って！！！",
+      "nextNodeID": "wait2",
+      "sound": "SFX_RadioSound"
+    },
+    "wait2": {
+      "talker": "エイミー",
+      "text": "ちょっと待って！！！",
+      "nextNodeID": "player",
+      "sound": "SFX_RadioSound"
+    },
+    "player": {
+      "talker": "プレイヤー",
+      "text": "な…なんだよ… 急に… びっくりしたじゃないか…",
+      "nextNodeID": "Action_Cutscene"
+    },
+    "Action_Cutscene": {
+      "text": "",
+      "action": {
+        "actionType": "PlayCutScene",
+        "targetID": "Cutscene_SaveMachine"
+      }
+    }
+  }
+}

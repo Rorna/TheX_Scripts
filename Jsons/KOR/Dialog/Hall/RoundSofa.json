@@ -1,0 +1,9 @@
+{
+  "startNodeID": "RoundSofa_1",
+  "nodes": {
+    "RoundSofa_1": {
+      "talker": "플레이어",
+      "text": "푹신푹신한 의자다."
+    }
+  }
+}

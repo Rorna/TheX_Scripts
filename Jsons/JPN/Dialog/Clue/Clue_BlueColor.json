@@ -1,0 +1,36 @@
+{
+  "startNodeID": "Clue2_Start",
+  "nodes": {
+    "Clue2_Start": {
+      "talker": "プレイヤー",
+      "text": "これは…研究員のメモか？乱雑だな…",
+      "nextNodeID": "Clue2_Read"
+    },
+    "Clue2_Read": {
+      "talker": "メモ",
+      "text": "…確認の結果、感染者たちに共通して見られるあの不気味な斑点の色は、鮮やかな『青色』である…",
+      "nextNodeID": "GetClue_Prompt"
+    },
+    "GetClue_Prompt": {
+      "talker": "プレイヤー",
+      "text": "青い斑点か…メモしておこうか…",
+      "branchType": "Clue",
+      "branchValue": "C_BlueColor",
+      "nextNodeID": "AlreadyGet",
+      "failTargetNodeID": "Action_GetClue"
+    },
+    "Action_GetClue": {
+      "talker": "システム",
+      "text": "手がかり「鮮やかな青色」を獲得しました。",
+      "sound": "SFX_GetClue",
+      "action": {
+        "actionType": "GetClue",
+        "targetID": "C_BlueColor"
+      }
+    },
+    "AlreadyGet": {
+      "talker": "プレイヤー",
+      "text": "あっ、この手がかりはすでにメモしてあるな。"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "startNodeID": "CapsuleBed_1",
+  "nodes": {
+    "CapsuleBed_1": {
+      "talker": "プレイヤー",
+      "text": "1人用のカプセルベッドだ。回復機能も付いている。",
+      "nextNodeID": "CapsuleBed_2"
+    },
+    "CapsuleBed_2": {
+      "talker": "プレイヤー",
+      "text": "それにしても狭すぎるな。"
+    }
+  }
+}

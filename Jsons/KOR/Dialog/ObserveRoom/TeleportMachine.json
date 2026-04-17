@@ -1,0 +1,79 @@
+{
+  "startNodeID": "ReturnMachine_Main",
+  "nodes": {
+    "ReturnMachine_Main": {
+      "talker": "관찰실 시스템",
+      "text": "본 관찰실은 완벽한 무균 처리가 완료된 특수 구역입니다. 대기 오염의 영향을 받지 않아 우주복 탈의가 가능하며, 내부 교전에도 견딜 수 있도록 특수 설계되었습니다. 원하시는 시스템을 선택해 주십시오.",
+      "choices": [
+        { "text": "'관찰' 진행 안내", "targetNodeID": "Info_Observe" },
+        { "text": "'관찰 모드' 조작법", "targetNodeID": "Info_Controls" },
+        { "text": "'심판' 및 '특수 탄환' 지침", "targetNodeID": "Info_Judgement_1" },
+        { "text": "모함으로 귀환", "targetNodeID": "Prompt_Return" },
+        { "text": "종료", "targetNodeID": "Machine_End" }
+      ],
+      "sound": "SFX_Boot"
+    },
+    "Info_Observe": {
+      "talker": "관찰실 시스템",
+      "text": "의심 대상을 바라보면 화면 좌측 하단에 상태 아이콘이 활성화됩니다. 해당 상태에서 키보드 [Tab] 키를 누르면 '관찰 모드'로 진입하게 됩니다.\n관찰 모드를 종료하시려면 다시 [Tab] 키를 입력해 주십시오.",
+      "nextNodeID": "ReturnMachine_Main"
+    },
+    "Info_Controls": {
+      "talker": "관찰실 시스템",
+      "text": "관찰 모드 진입 시 시스템 UI와 조작계가 관찰에 최적화됩니다.\n활성화된 마우스 커서를 의심되는 부위에 올린 후, 상호작용 키 [F]를 눌러 정밀 관찰을 진행하십시오. 마우스 휠을 통해 시야 줌인/줌아웃이 가능합니다.",
+      "nextNodeID": "Info_Controls_2"
+    },
+    "Info_Controls_2": {
+      "talker": "관찰실 시스템",
+      "text": "또한, 화면에 표시된 수집 단서 아이콘을 마우스로 클릭하면 해당 단서의 상세 설명과 대조해 볼 수 있습니다.",
+      "nextNodeID": "ReturnMachine_Main"
+    },
+    "Info_Judgement_1": {
+      "talker": "관찰실 시스템",
+      "text": "관찰 결과 대상이 무증상 감염체로 확정될 경우, 관찰 모드 해제 상태에서 키보드 [J] 키를 입력하여 '심판'을 집행할 수 있습니다.",
+      "nextNodeID": "Info_Judgement_2"
+    },
+    "Info_Judgement_2": {
+      "talker": "관찰실 시스템",
+      "text": "심판 시 대상에게 '특수 탄환'을 발사합니다. 특수 탄환은 변이체 X를 숙주로부터 강제로 분리시키는 목적을 가지며, 보급 수량이 매우 제한적입니다.",
+      "nextNodeID": "Info_Judgement_3"
+    },
+    "Info_Judgement_3": {
+      "talker": "관찰실 시스템",
+      "text": "대상이 실제 감염체라면 즉시 변이체 본연의 모습으로 분리되어 교전에 돌입합니다.\n경고: 비감염자에게 심판을 내릴 경우 대상은 즉사합니다.",
+      "nextNodeID": "Info_Judgement_4"
+    },
+    "Info_Judgement_4": {
+      "talker": "관찰실 시스템",
+      "text": "감염체를 제거할지, 무고한 희생자를 만들지는 전적으로 귀관의 손에 달렸습니다. 방아쇠를 당기기 전 신중히 판단하십시오.",
+      "nextNodeID": "ReturnMachine_Main"
+    },
+    "Prompt_Return": {
+      "talker": "관찰실 시스템",
+      "text": "안전 구역(함내)으로 복귀하시겠습니까?",
+      "choices": [
+        { "text": "예 (귀환한다)", "targetNodeID": "PrepareToReturn" },
+        { "text": "아니오", "targetNodeID": "ReturnMachine_Main" }
+      ]
+    },
+    "PrepareToReturn": {
+      "talker": "관찰실 시스템",
+      "text": "귀환 시퀀스를 시작합니다...",
+      "sound": "SFX_Warp",
+      "nextNodeID": "Action_Return"
+    },
+    "Action_Return": {
+      "talker": "관찰실 시스템",
+      "text": "",
+      "action": {
+        "actionType": "MoveScene",
+        "targetID": "Stage1"
+      }
+    },
+    "Machine_End": {
+      "talker": "관찰실 시스템",
+      "text": "시스템 사용을 종료합니다. 행운을 빕니다, 요원님.",
+      "sound": "SFX_Boot"
+    }
+  }
+}

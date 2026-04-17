@@ -1,0 +1,121 @@
+{
+  "objectList":
+  {
+    "Player":
+    {
+      "objectType": "Player",
+      "prefabName": "Player",
+      "spawnPos": { "x": 5, "y": 0, "z": 4 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "tag": "Player",
+      "layer": "Player"
+    },
+
+    "SaveMachine":
+    {
+      "objectType": "Field",
+      "prefabName": "SaveMachine",
+      "spawnPos": { "x": 4, "y": 0, "z": 48 },
+      "rotation": { "x": 0, "y": 145, "z": 0 },
+      "tag": "Interactable",
+      "layer": "Interactable"
+    },
+
+
+    "Astronaut_Boy":
+    {
+      "objectType": "Field",
+      "prefabName": "Astronaut_Boy",
+      "spawnPos": { "x": 38, "y": 0, "z": 48 },
+      "rotation": { "x": 0, "y": -90, "z": 0 },
+      "tag": "Interactable",
+      "layer": "Interactable"
+    },
+    "Astronaut_Alien":
+    {
+      "objectType": "Field",
+      "prefabName": "Astronaut_Alien",
+      "spawnPos": { "x": 54, "y": 0, "z": 48 },
+      "rotation": { "x": 0, "y": -218, "z": 0 },
+      "tag": "Interactable",
+      "layer": "Interactable"
+    },
+    "Astronaut_Women":
+    {
+      "objectType": "Field",
+      "prefabName": "Astronaut_Women",
+      "spawnPos": { "x": 50, "y": 0, "z": 37 },
+      "rotation": { "x": 0, "y": -198, "z": 0 },
+      "tag": "Interactable",
+      "layer": "Interactable"
+    },
+
+
+    "Clue_BigSpot":
+    {
+      "objectType": "Field",
+      "prefabName": "Clue_BigSpotRoot",
+      "spawnPos": { "x": 61, "y": 1, "z": 11 },
+      "rotation": { "x": 0, "y": -90, "z": 0 },
+      "tag": "Interactable",
+      "layer": "Interactable"
+    },
+    "Clue_BlueColor":
+    {
+      "objectType": "Field",
+      "prefabName": "Clue_BlueColorRoot",
+      "spawnPos": { "x": 78.35, "y": 2, "z": 36 },
+      "rotation": { "x": 0, "y": 90, "z": 0 },
+      "tag": "Interactable",
+      "layer": "Interactable"
+    },
+    "Clue_ElbowLocation":
+    {
+      "objectType": "Field",
+      "prefabName": "Clue_ElbowLocationRoot",
+      "spawnPos": { "x": 36, "y": 2, "z": 91 },
+      "rotation": { "x": -30, "y": -90, "z": 0 },
+      "tag": "Interactable",
+      "layer": "Interactable"
+    },
+
+
+
+    "Corridor_SaveCutsceneTriggerObj":
+    {
+      "objectType": "Field",
+      "prefabName": "Corridor_SaveCutsceneTriggerObj",
+      "spawnPos": { "x": 5, "y": 1, "z": 27 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "tag": "Interactable",
+      "layer": "Interactable"
+    },
+    "Hall_TriggerGateCutscene":
+    {
+      "objectType": "Field",
+      "prefabName": "Hall_TriggerGateCutscene",
+      "spawnPos": { "x": 43, "y": 1, "z": 42 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "tag": "Interactable",
+      "layer": "Interactable"
+    },
+    "Hall_TriggerNextGate":
+    {
+      "objectType": "Field",
+      "prefabName": "Hall_TriggerNextGate",
+      "spawnPos": { "x": 32, "y": 2, "z": 65 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "tag": "Interactable",
+      "layer": "Interactable"
+    },
+    "StartRoom_TriggerInteraction":
+    {
+      "objectType": "Field",
+      "prefabName": "StartRoom_TriggerInteraction",
+      "spawnPos": { "x": 5, "y": 1, "z": 8 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "tag": "Interactable",
+      "layer": "Interactable"
+    }
+  }
+}

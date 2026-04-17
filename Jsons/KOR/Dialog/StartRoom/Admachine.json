@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Admachine_1",
+  "nodes": {
+    "Admachine_1": {
+      "talker": "플레이어",
+      "text": "광고판이다.",
+      "nextNodeID": "Admachine_2"
+    },
+    "Admachine_2": {
+      "talker": "플레이어",
+      "text": "매번 이상한 광고만 나온단 말이지 이거.",
+      "nextNodeID": "Admachine_3"
+    },
+    "Admachine_3": {
+      "talker": "플레이어",
+      "text": "뭘 의미하는 거야 도대체."
+    }
+  }
+}

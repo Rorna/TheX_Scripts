@@ -1,0 +1,20 @@
+{
+  "startNodeID": "KillQuest_Clear_1",
+  "nodes": {
+    "KillQuest_Clear_1": {
+      "talker": "에이미",
+      "text": "수고했어! 구역 내의 변이체 생체 신호가 모두 소멸된 것을 확인했어.",
+      "nextNodeID": "KillQuest_Clear_2",
+      "sound": "SFX_RadioSound"
+    },
+    "KillQuest_Clear_2": {
+      "talker": "에이미",
+      "text": "방금 시스템 제어권이 돌아오면서 잠겨있던 메인 게이트의 문이 열린 것 같아!",
+      "nextNodeID": "KillQuest_Clear_3"
+    },
+    "KillQuest_Clear_3": {
+      "talker": "주인공",
+      "text": "(좋아, 드디어 길이 열렸군. 서둘러 열린 문 쪽으로 가보자.)"
+    }
+  }
+}

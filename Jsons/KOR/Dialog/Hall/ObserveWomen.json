@@ -1,0 +1,65 @@
+{
+  "startNodeID": "StartBranch",
+  "nodes": {
+    "StartBranch":
+    {
+      "talker": "떨고 있는 여성",
+      "text": "바들바들...",
+      
+      "branchType": "Quest",
+      "branchValue": "Q_KillTheX",
+      "nextNodeID": "AllEnd",
+      "failTargetNodeID": "NPC_Female_Start"
+    },
+    "AllEnd":
+    {
+      "talker": "떨고 있는 여성",
+      "text": "다행이에요...!"
+    },
+    "NPC_Female_Start": {
+      "talker": "떨고 있는 여성",
+      "text": "꺄악...! 총, 총 치워주세요! 전 아무 짓도 안 했어요! 전 감염자가 아니라고요!",
+      
+      "branchType": "Quest",
+      "branchValue": "Q_CollectAllClue",
+      "nextNodeID": "NPC_CanObserve",
+      "failTargetNodeID": "NPC_CannotObserve"
+    },
+    "NPC_CannotObserve": {
+      "talker": "주인공",
+      "text": "(아직 감염 여부를 확실히 판별할 단서가 부족하다. 오판을 막기 위해 단서부터 마저 찾아야 해.)",
+      "choices": [
+        { "text": "진정하십시오. 쏘지 않겠습니다. (물러난다)", "targetNodeID": "NPC_End" }
+      ]
+    },
+    "NPC_CanObserve": {
+      "talker": "떨고 있는 여성",
+      "text": "제발 쏘지 마세요... 집에 두고 온 아이가 있어요... 전 정말 감염자가 아니에요. 맹세할 수 있어요...!",
+      "choices": [
+        { "text": "[관찰] 대상을 유심히 살펴본다", "targetNodeID": "NPC_ReadyToObserve" },
+        { "text": "우선 물러난다", "targetNodeID": "NPC_End" }
+      ]
+    },
+    "NPC_ReadyToObserve": {
+      "talker": "주인공",
+      "text": "(단서들이 모두 모였어. 이 자의 몸에 이상 징후가 없는지 확인해 보자...)",
+      "nextNodeID": "NPC_ReadyToObserve1"
+    },
+    "NPC_ReadyToObserve1": {
+      "talker": "Player",
+      "text": "지금부터 관찰실로 이동하겠습니다. 관찰실에서는 환복후 양팔을 벌린채로 대기해주십시오.",
+      "nextNodeID": "Action_Observe"
+    },
+    "Action_Observe": {
+      "text": "",
+      "action": {
+        "actionType": "MoveScene",
+        "targetID": "ObserveScene"
+      }
+    },
+    "NPC_End": {
+      "talker": "떨고 있는 여성",
+      "text": "흐흑... 제발 목숨만은... 살려주세요..."
+    }
+  }
+}

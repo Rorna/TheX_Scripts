@@ -1,0 +1,19 @@
+{
+  "startNodeID": "Observe_Male_LLeg_1",
+  "nodes": {
+    "Observe_Male_LLeg_1": {
+      "talker": "プレイヤー",
+      "text": "（左脚部分。立っている脚がひどく震えているな。）",
+      "nextNodeID": "Observe_Male_LLeg_2"
+    },
+    "Observe_Male_LLeg_2": {
+      "talker": "怯えた生存者",
+      "text": "あ、脚に力が入らなくて立っているのも辛いです… 私は本当に感染者じゃありません…",
+      "nextNodeID": "Observe_Male_LLeg_3"
+    },
+    "Observe_Male_LLeg_3": {
+      "talker": "プレイヤー",
+      "text": "（ズボンの上から見える部分にも、感染や変異の兆候は全く見当たらない。）"
+    }
+  }
+}

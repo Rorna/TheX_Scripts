@@ -1,0 +1,20 @@
+{
+  "startNodeID": "Success_Start",
+  "nodes": {
+    "Success_Start": {
+      "talker": "観察対象",
+      "text": "グアアアッ…！！つ、ついに…私を…",
+      "nextNodeID": "Success_Monster"
+    },
+    "Success_Monster": {
+      "talker": "X",
+      "text": "フフフフ…結局バレたか！仕方ない！ここで貴様を引き裂いて殺してやる！！",
+      "nextNodeID": "Success_Amy"
+    },
+    "Success_Amy": {
+      "talker": "エイミー",
+      "text": "気をつけて！！宿主からXが完全に分離したわ！今すぐあなたに襲いかかってくるわよ！！",
+      "sound": "SFX_RadioSound"
+    }
+  }
+}

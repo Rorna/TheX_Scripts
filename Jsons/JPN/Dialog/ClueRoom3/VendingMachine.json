@@ -1,0 +1,14 @@
+{
+  "startNodeID": "VendingMachine_1",
+  "nodes": {
+    "VendingMachine_1": {
+      "talker": "プレイヤー",
+      "text": "自販機だ。飲めば一日中お腹がいっぱいになる飲み物が並んでいる。",
+      "nextNodeID": "VendingMachine_2"
+    },
+    "VendingMachine_2": {
+      "talker": "プレイヤー",
+      "text": "ご飯を食べなくていいのは助かるが、美味しくないんだよな…"
+    }
+  }
+}

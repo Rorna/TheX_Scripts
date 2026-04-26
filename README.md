@@ -13,9 +13,12 @@
 | **外部ライブラリ** | [Newton.Json](https://www.newtonsoft.com/json)/ [Outline](https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488?locale=ja-JP&srsltid=AfmBOooy1nM8O84KYmNfC5__q4EpRDCVYMEIU9VhhUcYy6WKXKzzdYEF) |
 | **ゲームの目的** | クルーに寄生した謎の生命体「X」を特定し排除する |
 
+[ポートフォリオ(PDF)](./Docs/Portfolio.pdf)
+
 [プロジェクトの実行ファイル](https://github.com/Rorna/TheX_Scripts/releases/tag/v1.0.0)
 
 [プロジェクトプレイ映像](https://www.youtube.com/watch?v=tGaO-OhM0j0)
+
 
 # **操作方法**
 

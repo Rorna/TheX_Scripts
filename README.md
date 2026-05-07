@@ -17,7 +17,7 @@
 
 [プロジェクトの実行ファイル](https://github.com/Rorna/TheX_Scripts/releases/tag/v1.0.0)
 
-[プロジェクトプレイ映像](https://www.youtube.com/watch?v=tGaO-OhM0j0)
+[プロジェクトプレイ映像](https://youtu.be/gCC518wDZnU)
 
 
 # **操作方法**

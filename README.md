@@ -7,7 +7,7 @@
 | --- | --- |
 | **プロジェクト名** | The X |
 | **ジャンル** | 推理アクション |
-| **開発人数 / 期間** | 1名（個人開発） / 約4ヶ月 |
+| **開発人数 / 開発期間** | 1名（個人開発） / 約4ヶ月 |
 | **プラットフォーム** | Windows |
 | **開発環境** | Unity 6.2 / Visual Studio 2022 |
 | **外部ライブラリ** | [Newton.Json](https://www.newtonsoft.com/json)/ [Outline](https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488?locale=ja-JP&srsltid=AfmBOooy1nM8O84KYmNfC5__q4EpRDCVYMEIU9VhhUcYy6WKXKzzdYEF) |

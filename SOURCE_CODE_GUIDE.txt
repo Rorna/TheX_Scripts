@@ -1,0 +1,90 @@
+ソースコード構成説明
+
+本フォルダは、個人制作ゲーム「The X」で使用した主要なC#スクリプトをまとめたものです。
+本プロジェクトでは、保守性と拡張性を意識し、Manager-Controller構造、Facadeパターン、インターフェース制御、FSM、JSONを用いたData-Driven設計を取り入れています。
+
+※Unityプロジェクト全体ではなく、主にスクリプト確認用としてC#コードをまとめたものです。
+
+■ フォルダ構成
+
+Scripts/System
+プロジェクト全体で共通して使用する基盤クラスを配置しています。
+Facade.csは、外部からの機能リクエストを集約する窓口として実装し、各Managerへの依存を整理する役割を持っています。
+また、JsonClass.cs、SaveClass.cs、CustomObjectPool.csなど、データ管理や共通処理に関するクラスも含まれています。
+
+Scripts/Managers
+各機能のデータ管理やControllerへの命令を担当するManagerクラスを配置しています。
+Managerは実際の細かいロジックを直接持ちすぎないようにし、Controllerへ処理を委譲する構造を意識しました。
+
+Scripts/Controllers
+各機能の実際の処理ロジックを担当するControllerクラスを配置しています。
+ゲーム進行、プレイヤー、敵、クエスト、観察、審判、UIなど、機能ごとにControllerを分けています。
+
+Scripts/UI
+UIの表示処理を担当するクラスを配置しています。
+Dialog、HUD、Popup、Pause、Loadingなど、画面表示に関する処理を分離しています。
+また、UI/InterfaceにはUI制御用のインターフェースを配置し、Controllerが具体的なUI実装に強く依存しないようにしています。
+
+Scripts/Action
+JSONデータから実行されるゲーム内アクションを配置しています。
+会話開始、シーン移動、クエスト取得、手がかり取得、審判開始など、ゲーム進行上の処理をAction単位で分離しました。
+これにより、コードを直接修正せずにJSONデータ側からゲーム進行を制御しやすい構造を目指しました。
+
+Scripts/FSM
+PlayerとEnemyの状態管理に関するクラスを配置しています。
+移動、攻撃、リロード、ジャンプなどの状態をクラス単位で分離し、大きな条件分岐に依存しない構造を意識しました。
+
+Scripts/Quest
+クエスト処理に関するクラスを配置しています。
+IQuestインターフェースを基盤に、手がかり収集、カウント、ターゲット指定など、クエスト種別ごとに処理を分離しています。
+
+Scripts/Skill
+敵のスキル処理を配置しています。
+ISkillインターフェースを用いることで、RushAttackやShockWaveAttackなどのスキルを共通の流れで制御できるようにしました。
+
+Scripts/Object
+ゲーム内オブジェクトに関する処理を配置しています。
+武器、弾道、フィールドトリガー、エフェクト判定など、Scene上のオブジェクトに紐づく処理を含んでいます。
+
+Scripts/Define
+定数やEnum定義を配置しています。
+
+Scripts/Utils
+JSON読み込み、Unity関連の補助処理、Vector変換など、汎用的なユーティリティを配置しています。
+
+
+■ 主に見ていただきたいコード
+
+1. Facade.cs
+各Managerへのアクセスを集約し、クラス間の直接参照を減らすために実装したクラスです。
+プロジェクト全体の結合度を下げることを目的としています。
+
+2. ActionController.cs / IAction.cs / 各Actionクラス
+JSONデータから指定されたActionを実行するための処理です。
+会話、シーン移動、クエスト取得、手がかり取得などをAction単位で分離し、Data-Drivenな進行制御を目指しました。
+
+3. DialogController.cs / DialogSession.cs / UIDialog.cs
+会話システムのController、状態管理、表示処理を分離した実装です。
+UI変更が会話ロジックに直接影響しないよう、役割分離を意識しました。
+
+4. EnemyFSM.cs / EnemyBrain.cs / EnemyMoveState.cs
+敵の行動管理に関する実装です。
+FSMで行動状態を管理し、EnemyBrainで次の行動判断を行うことで、行動ロジックと判断処理を分離しました。
+
+5. ISkill.cs / EnemySkillHandler.cs / RushAttack.cs / ShockWaveAttack.cs
+敵スキルの拡張性を意識した実装です。
+インターフェースを用いて、複数のスキルを共通の方法で扱えるようにしました。
+
+6. QuestManager.cs / QuestController.cs / IQuest.cs / ClueQuest.cs
+クエスト管理に関する実装です。
+JSONから読み込んだクエストデータをもとに、クエスト進行を制御しています。
+
+
+■ 設計上意識した点
+
+本プロジェクトでは、特定のクラスに処理が集中することを避けるため、Manager、Controller、View、Actionなどの役割を分離しました。
+また、クラス同士が直接参照し合う範囲を抑えるため、Facadeパターンやインターフェースを活用しました。
+
+ゲーム進行やクエスト、会話、シーン移動などは、可能な範囲でJSONデータから制御できるようにし、コードを修正せずに内容を追加・調整しやすい構造を目指しました。
+
+敵やプレイヤーの状態管理ではFSMを導入し、状態ごとの処理をクラスとして分離することで、可読性と保守性を高めることを意識しました。

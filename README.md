@@ -19,6 +19,7 @@
 
 [プロジェクトプレイ映像](https://youtu.be/gCC518wDZnU)
 
+[ソースコード構成説明](./SOURCE_CODE_GUIDE.txt)
 
 # **操作方法**
 
